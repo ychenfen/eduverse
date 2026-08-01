@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>智学灵境 EduVerse · 高等教育个性化学习多智能体系统</title>
+    <meta name="description" content="多智能体协同的个性化学习平台，融合大模型与多模态生成技术，落地高等教育因材施教。" />
+    <script>
+      // 主题要在首帧之前落地。store 里的主题只有等入口 JS 下载并解析完才会打到 <html> 上，
+      // 期间浅色用户会先看到一段深色底。这里读同一个 localStorage key 提前同步。
+      try {
+        var t = JSON.parse(localStorage.getItem('eduverse-theme') || '"dark"')
+        if (t !== 'dark' && t !== 'light') t = 'dark'
+        document.documentElement.classList.remove('dark', 'light')
+        document.documentElement.classList.add(t)
+      } catch (e) {
+        // localStorage 被禁用时保留 HTML 上的默认 dark
+      }
+    </script>
+    <script type="module">
+      if (import.meta.hot?.on) {
+        import.meta.hot.on('vite:error', (error) => {
+          if (error.err) {
+            console.error(
+              [error.err.message, error.err.frame].filter(Boolean).join('\n'),
+            )
+          }
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

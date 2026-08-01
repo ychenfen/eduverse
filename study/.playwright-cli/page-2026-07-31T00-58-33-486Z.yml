@@ -1,0 +1,144 @@
+- generic [ref=e3]:
+  - link "跳到主要内容" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - complementary "主导航" [ref=e5]:
+    - generic [ref=e11]:
+      - generic [ref=e12]: 智学灵境
+      - generic [ref=e13]: EDUVERSE
+    - navigation [ref=e14]:
+      - link "工作台" [ref=e15] [cursor=pointer]:
+        - /url: /
+      - link "决赛演示" [ref=e23] [cursor=pointer]:
+        - /url: /showcase
+      - link "学习画像" [ref=e28] [cursor=pointer]:
+        - /url: /profile
+      - link "学习计划" [ref=e34] [cursor=pointer]:
+        - /url: /plan
+      - link "资源工坊" [ref=e38] [cursor=pointer]:
+        - /url: /workshop
+      - link "学习路径" [ref=e42] [cursor=pointer]:
+        - /url: /path
+      - link "题库训练" [ref=e48] [cursor=pointer]:
+        - /url: /practice
+      - link "智能辅导" [ref=e55] [cursor=pointer]:
+        - /url: /tutor
+      - link "学习评估" [ref=e60] [cursor=pointer]:
+        - /url: /assessment
+      - link "资源中心" [ref=e65] [cursor=pointer]:
+        - /url: /library
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: 智能体编队
+        - generic [ref=e72]: 7 在线
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic "灵境 · 队长 · Captain" [ref=e75]: 灵
+          - generic [ref=e78]: 灵境
+        - generic [ref=e79]:
+          - generic "解构者 · 知识架构师 · Deconstructor" [ref=e80]: 解
+          - generic [ref=e83]: 解构者
+        - generic [ref=e84]:
+          - generic "编织者 · 内容撰写师 · Weaver" [ref=e85]: 织
+          - generic [ref=e88]: 编织者
+        - generic [ref=e89]:
+          - generic "出题官 · 评测设计师 · QuizMaster" [ref=e90]: 题
+          - generic [ref=e93]: 出题官
+        - generic [ref=e94]:
+          - generic "视觉师 · 多模态设计师 · Visualist" [ref=e95]: 视
+          - generic [ref=e98]: 视觉师
+        - generic [ref=e99]:
+          - generic "实操匠 · 代码工程师 · Coder" [ref=e100]: 码
+          - generic [ref=e103]: 实操匠
+        - generic [ref=e104]:
+          - generic "校验官 · 防幻觉守门人 · Validator" [ref=e105]: 校
+          - generic [ref=e108]: 校验官
+    - generic [ref=e110]:
+      - generic [ref=e111]: 知
+      - generic [ref=e112]:
+        - generic [ref=e113]: 林知远
+        - generic [ref=e114]: 本科大三
+      - button "切换身份或重新构建画像" [ref=e115] [cursor=pointer]
+  - generic [ref=e119]:
+    - banner [ref=e120]:
+      - navigation "面包屑" [ref=e121]:
+        - link "智学灵境" [ref=e122] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e125]: 资源工坊
+      - generic [ref=e126]:
+        - button "打开全局搜索" [ref=e127] [cursor=pointer]:
+          - generic [ref=e131]: 搜索知识点 / 资源 / 智能体…
+          - generic [ref=e132]: ⌘K
+        - button "切换为浅色主题" [ref=e133] [cursor=pointer]
+        - button "查看通知" [ref=e141] [cursor=pointer]
+        - generic [ref=e146]: 编队在线
+    - main [ref=e148]:
+      - generic [ref=e1152]:
+        - generic [ref=e1154]:
+          - generic [ref=e1155]:
+            - heading "智能体调度台" [level=2] [ref=e1158]
+            - generic [ref=e1159]: 6 类资源 · 7 智能体
+          - generic [ref=e1160]:
+            - generic [ref=e1161]: ① 选择资源类型
+            - generic [ref=e1162]:
+              - button "讲解文档" [ref=e1163] [cursor=pointer]
+              - button "思维导图" [ref=e1169] [cursor=pointer]
+              - button "题库" [ref=e1177] [cursor=pointer]
+              - button "拓展阅读" [ref=e1183] [cursor=pointer]
+              - button "教学动画" [ref=e1188] [cursor=pointer]
+              - button "代码实操" [ref=e1196] [cursor=pointer]
+          - generic [ref=e1203]:
+            - generic [ref=e1204]: ② 选择主题来源
+            - generic [ref=e1205]:
+              - button "章节知识点" [ref=e1206] [cursor=pointer]
+              - button "自定义主题" [ref=e1207] [cursor=pointer]
+            - combobox [ref=e1208]:
+              - option "第1章 · 人工智能的定义与范畴（难度★）"
+              - option "第1章 · AI 发展三次浪潮（难度★）"
+              - option "第1章 · 三大研究学派（难度★★）"
+              - option "第1章 · AI 伦理与安全（难度★★）"
+              - option "第2章 · 无信息搜索策略（难度★★）"
+              - option "第2章 · 启发式搜索 A*（难度★★★）"
+              - option "第2章 · 局部搜索与优化（难度★★★）"
+              - option "第2章 · 对抗搜索与博弈（难度★★★★）"
+              - option "第3章 · 谓词逻辑与推理（难度★★★）"
+              - option "第3章 · 框架与语义网络（难度★★）"
+              - option "第3章 · 不确定知识与概率推理（难度★★★★）"
+              - option "第3章 · 知识图谱构建与应用（难度★★★）"
+              - option "第4章 · 机器学习范式与分类（难度★★）"
+              - option "第4章 · 线性模型与正则化（难度★★★）"
+              - option "第4章 · 决策树与集成学习（难度★★★）"
+              - option "第4章 · 模型评估与超参调优（难度★★★）"
+              - option "第5章 · 神经网络与反向传播（难度★★★★）"
+              - option "第5章 · 卷积神经网络 CNN（难度★★★★）"
+              - option "第5章 · 循环网络与序列建模（难度★★★★）"
+              - option "第5章 · Transformer 与注意力（难度★★★★★）" [selected]
+              - option "第6章 · 大模型预训练范式（难度★★★★★）"
+              - option "第6章 · 检索增强生成 RAG（难度★★★★）"
+              - option "第6章 · 智能体 Agent 架构（难度★★★★★）"
+              - option "第6章 · 多智能体协同框架（难度★★★★★）"
+            - generic [ref=e1209]: 摘要：Self-Attention、Multi-Head、位置编码、Encoder-Decoder。
+          - button "启动多智能体协同生成" [disabled] [ref=e1210]
+        - complementary [ref=e1216]:
+          - generic [ref=e1217]:
+            - heading "智能体协作日志" [level=4] [ref=e1220]
+            - generic [ref=e1222]: 选择资源类型并启动生成后，各智能体的"思考-生成-校验"过程将在此实时呈现。
+          - generic [ref=e1223]:
+            - heading "防幻觉与安全机制" [level=4] [ref=e1224]
+            - list [ref=e1228]:
+              - listitem [ref=e1229]: · 校验官对照本地知识库白名单进行事实核查
+              - listitem [ref=e1230]: · 公式与代码语法自动校验
+              - listitem [ref=e1231]: · 敏感词扫描（内置词表 + 可对接讯飞内容审核）
+              - listitem [ref=e1232]: · 引用补全，缺失部分标注"待补充"
+              - listitem [ref=e1233]: · 不通过则打回重生成（最多 2 次）
+  - complementary "决赛演示向导" [ref=e1113]:
+    - generic [ref=e1116]:
+      - generic [ref=e1117]:
+        - generic [ref=e1125]:
+          - generic [ref=e1126]:
+            - generic [ref=e1127]: FINAL DEMO 2/5
+            - generic [ref=e1128]: 55 秒
+          - heading "编队生成" [level=2] [ref=e1234]
+        - button "收起演示向导" [ref=e1130] [cursor=pointer]
+        - button "退出演示向导" [ref=e1136] [cursor=pointer]
+      - paragraph [ref=e1140]: 选一个主题，现场观看多智能体协作
+      - button "下一步·路径解释" [active] [ref=e1235] [cursor=pointer]

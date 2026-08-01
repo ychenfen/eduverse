@@ -1,0 +1,452 @@
+- generic [ref=e3]:
+  - link "跳到主要内容" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - complementary "主导航" [ref=e5]:
+    - generic [ref=e11]:
+      - generic [ref=e12]: 智学灵境
+      - generic [ref=e13]: EDUVERSE
+    - navigation [ref=e14]:
+      - link "工作台" [ref=e15] [cursor=pointer]:
+        - /url: /
+      - link "决赛演示" [ref=e23] [cursor=pointer]:
+        - /url: /showcase
+      - link "学习画像" [ref=e28] [cursor=pointer]:
+        - /url: /profile
+      - link "学习计划" [ref=e34] [cursor=pointer]:
+        - /url: /plan
+      - link "资源工坊" [ref=e38] [cursor=pointer]:
+        - /url: /workshop
+      - link "学习路径" [ref=e42] [cursor=pointer]:
+        - /url: /path
+      - link "题库训练" [ref=e48] [cursor=pointer]:
+        - /url: /practice
+      - link "智能辅导" [ref=e55] [cursor=pointer]:
+        - /url: /tutor
+      - link "学习评估" [ref=e60] [cursor=pointer]:
+        - /url: /assessment
+      - link "资源中心" [ref=e65] [cursor=pointer]:
+        - /url: /library
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: 智能体编队
+        - generic [ref=e72]: 7 在线
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic "灵境 · 队长 · Captain" [ref=e75]: 灵
+          - generic [ref=e78]: 灵境
+        - generic [ref=e79]:
+          - generic "解构者 · 知识架构师 · Deconstructor" [ref=e80]: 解
+          - generic [ref=e83]: 解构者
+        - generic [ref=e84]:
+          - generic "编织者 · 内容撰写师 · Weaver" [ref=e85]: 织
+          - generic [ref=e88]: 编织者
+        - generic [ref=e89]:
+          - generic "出题官 · 评测设计师 · QuizMaster" [ref=e90]: 题
+          - generic [ref=e93]: 出题官
+        - generic [ref=e94]:
+          - generic "视觉师 · 多模态设计师 · Visualist" [ref=e95]: 视
+          - generic [ref=e98]: 视觉师
+        - generic [ref=e99]:
+          - generic "实操匠 · 代码工程师 · Coder" [ref=e100]: 码
+          - generic [ref=e103]: 实操匠
+        - generic [ref=e104]:
+          - generic "校验官 · 防幻觉守门人 · Validator" [ref=e105]: 校
+          - generic [ref=e108]: 校验官
+    - generic [ref=e110]:
+      - generic [ref=e111]: 知
+      - generic [ref=e112]:
+        - generic [ref=e113]: 林知远
+        - generic [ref=e114]: 本科大三
+      - button "切换身份或重新构建画像" [ref=e115] [cursor=pointer]
+  - generic [ref=e119]:
+    - banner [ref=e120]:
+      - navigation "面包屑" [ref=e121]:
+        - link "智学灵境" [ref=e122] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e125]: 学习评估
+      - generic [ref=e126]:
+        - button "打开全局搜索" [ref=e127] [cursor=pointer]:
+          - generic [ref=e131]: 搜索知识点 / 资源 / 智能体…
+          - generic [ref=e132]: ⌘K
+        - button "切换为浅色主题" [ref=e133] [cursor=pointer]
+        - button "查看通知" [ref=e141] [cursor=pointer]
+        - generic [ref=e146]: 编队在线
+    - main [ref=e148]:
+      - generic [ref=e1866]:
+        - generic [ref=e1867]:
+          - generic [ref=e1868]:
+            - heading "学习效果评估" [level=1] [ref=e1869]
+            - paragraph [ref=e1870]: 章节学习 · 测验评估 · 掌握判定
+          - button "生成调优方案" [ref=e1871] [cursor=pointer]
+        - generic [ref=e1874]:
+          - generic [ref=e1875]:
+            - generic [ref=e1880]:
+              - generic [ref=e1881]: "38"
+              - generic [ref=e1882]: "%"
+            - generic [ref=e1883]: 平均掌握度
+          - generic [ref=e1884]:
+            - generic [ref=e1888]:
+              - generic [ref=e1889]: "484"
+              - generic [ref=e1890]: min
+            - generic [ref=e1891]: 累计学习
+          - generic [ref=e1892]:
+            - generic [ref=e1896]:
+              - generic [ref=e1897]: "78"
+              - generic [ref=e1898]: "%"
+            - generic [ref=e1899]: 题库正确率
+          - generic [ref=e1900]:
+            - generic [ref=e1904]: 64/82
+            - generic [ref=e1906]: 题库完成
+        - generic [ref=e1907]:
+          - generic [ref=e1909]:
+            - heading "章节学习进度" [level=2] [ref=e1910]
+            - generic [ref=e1911]:
+              - generic [ref=e1912]:
+                - generic [ref=e1913] [cursor=pointer]:
+                  - generic [ref=e1914]: "1"
+                  - generic [ref=e1915]:
+                    - heading "AI 绪论与发展史" [level=3] [ref=e1916]
+                    - paragraph [ref=e1917]: 建立 AI 学科全景认知
+                  - generic [ref=e1918]: 3/4 已掌握
+                - generic [ref=e1923]:
+                  - generic [ref=e1924]:
+                    - generic [ref=e1925]:
+                      - generic [ref=e1926]: 人工智能的定义与范畴
+                      - generic [ref=e1931]:
+                        - generic [ref=e1932]: 25分钟
+                        - generic [ref=e1933]: "难度: ★"
+                        - generic [ref=e1934]: "掌握度: 92%"
+                    - generic [ref=e1935]: 已掌握
+                  - generic [ref=e1943]:
+                    - generic [ref=e1944]:
+                      - generic [ref=e1945]: AI 发展三次浪潮
+                      - generic [ref=e1950]:
+                        - generic [ref=e1951]: 30分钟
+                        - generic [ref=e1952]: "难度: ★"
+                        - generic [ref=e1953]: "掌握度: 88%"
+                    - generic [ref=e1954]: 已掌握
+                  - generic [ref=e1962]:
+                    - generic [ref=e1963]:
+                      - generic [ref=e1964]: 三大研究学派
+                      - generic [ref=e1969]:
+                        - generic [ref=e1970]: 35分钟
+                        - generic [ref=e1971]: "难度: ★★"
+                        - generic [ref=e1972]: "掌握度: 85%"
+                    - generic [ref=e1973]: 已掌握
+                  - generic [ref=e1981]:
+                    - generic [ref=e1982]:
+                      - generic [ref=e1983]: AI 伦理与安全
+                      - generic [ref=e1985]:
+                        - generic [ref=e1986]: 40分钟
+                        - generic [ref=e1987]: "难度: ★★"
+                    - button "学习" [ref=e1989] [cursor=pointer]
+              - generic [ref=e1992]:
+                - generic [ref=e1993] [cursor=pointer]:
+                  - generic [ref=e1994]: "2"
+                  - generic [ref=e1995]:
+                    - heading "搜索与优化" [level=3] [ref=e1996]
+                    - paragraph [ref=e1997]: 经典问题求解的核心方法
+                  - generic [ref=e1998]: 2/4 已掌握
+                - generic [ref=e2003]:
+                  - generic [ref=e2004]:
+                    - generic [ref=e2005]:
+                      - generic [ref=e2006]: 无信息搜索策略
+                      - generic [ref=e2011]:
+                        - generic [ref=e2012]: 40分钟
+                        - generic [ref=e2013]: "难度: ★★"
+                        - generic [ref=e2014]: "掌握度: 78%"
+                    - generic [ref=e2015]: 已掌握
+                  - generic [ref=e2023]:
+                    - generic [ref=e2024]:
+                      - generic [ref=e2025]: 启发式搜索 A*
+                      - generic [ref=e2030]:
+                        - generic [ref=e2031]: 50分钟
+                        - generic [ref=e2032]: "难度: ★★★"
+                        - generic [ref=e2033]: "掌握度: 72%"
+                    - generic [ref=e2034]: 已掌握
+                  - generic [ref=e2042]:
+                    - generic [ref=e2043]:
+                      - generic [ref=e2044]: 局部搜索与优化
+                      - generic [ref=e2046]:
+                        - generic [ref=e2047]: 45分钟
+                        - generic [ref=e2048]: "难度: ★★★"
+                    - button "学习" [ref=e2050] [cursor=pointer]
+                  - generic [ref=e2053]:
+                    - generic [ref=e2054]:
+                      - generic [ref=e2055]: 对抗搜索与博弈
+                      - generic [ref=e2057]:
+                        - generic [ref=e2058]: 55分钟
+                        - generic [ref=e2059]: "难度: ★★★★"
+                    - button "学习" [ref=e2061] [cursor=pointer]
+              - generic [ref=e2064]:
+                - generic [ref=e2065] [cursor=pointer]:
+                  - generic [ref=e2066]: "3"
+                  - generic [ref=e2067]:
+                    - heading "知识表示与推理" [level=3] [ref=e2068]
+                    - paragraph [ref=e2069]: 符号 AI 的形式化基础
+                  - generic [ref=e2070]: 0/4 已掌握
+                - generic [ref=e2075]:
+                  - generic [ref=e2076]:
+                    - generic [ref=e2077]:
+                      - generic [ref=e2078]: 谓词逻辑与推理
+                      - generic [ref=e2080]:
+                        - generic [ref=e2081]: 50分钟
+                        - generic [ref=e2082]: "难度: ★★★"
+                    - button "学习" [ref=e2084] [cursor=pointer]
+                  - generic [ref=e2087]:
+                    - generic [ref=e2088]:
+                      - generic [ref=e2089]: 框架与语义网络
+                      - generic [ref=e2091]:
+                        - generic [ref=e2092]: 35分钟
+                        - generic [ref=e2093]: "难度: ★★"
+                    - button "学习" [ref=e2095] [cursor=pointer]
+                  - generic [ref=e2098]:
+                    - generic [ref=e2099]:
+                      - generic [ref=e2100]: 不确定知识与概率推理
+                      - generic [ref=e2102]:
+                        - generic [ref=e2103]: 60分钟
+                        - generic [ref=e2104]: "难度: ★★★★"
+                    - button "学习" [ref=e2106] [cursor=pointer]
+                  - generic [ref=e2109]:
+                    - generic [ref=e2110]:
+                      - generic [ref=e2111]: 知识图谱构建与应用
+                      - generic [ref=e2113]:
+                        - generic [ref=e2114]: 45分钟
+                        - generic [ref=e2115]: "难度: ★★★"
+                    - button "学习" [ref=e2117] [cursor=pointer]
+              - generic [ref=e2120]:
+                - generic [ref=e2121] [cursor=pointer]:
+                  - generic [ref=e2122]: "4"
+                  - generic [ref=e2123]:
+                    - heading "机器学习基础" [level=3] [ref=e2124]
+                    - paragraph [ref=e2125]: 数据驱动的学习范式
+                  - generic [ref=e2126]: 3/4 已掌握
+                - generic [ref=e2131]:
+                  - generic [ref=e2132]:
+                    - generic [ref=e2133]:
+                      - generic [ref=e2134]: 机器学习范式与分类
+                      - generic [ref=e2139]:
+                        - generic [ref=e2140]: 35分钟
+                        - generic [ref=e2141]: "难度: ★★"
+                        - generic [ref=e2142]: "掌握度: 84%"
+                    - generic [ref=e2143]: 已掌握
+                  - generic [ref=e2151]:
+                    - generic [ref=e2152]:
+                      - generic [ref=e2153]: 线性模型与正则化
+                      - generic [ref=e2158]:
+                        - generic [ref=e2159]: 50分钟
+                        - generic [ref=e2160]: "难度: ★★★"
+                        - generic [ref=e2161]: "掌握度: 80%"
+                    - generic [ref=e2162]: 已掌握
+                  - generic [ref=e2170]:
+                    - generic [ref=e2171]:
+                      - generic [ref=e2172]: 决策树与集成学习
+                      - generic [ref=e2177]:
+                        - generic [ref=e2178]: 50分钟
+                        - generic [ref=e2179]: "难度: ★★★"
+                        - generic [ref=e2180]: "掌握度: 82%"
+                    - generic [ref=e2181]: 已掌握
+                  - generic [ref=e2189]:
+                    - generic [ref=e2190]:
+                      - generic [ref=e2191]: 模型评估与超参调优
+                      - generic [ref=e2193]:
+                        - generic [ref=e2194]: 40分钟
+                        - generic [ref=e2195]: "难度: ★★★"
+                    - button "学习" [ref=e2197] [cursor=pointer]
+              - generic [ref=e2200]:
+                - generic [ref=e2201] [cursor=pointer]:
+                  - generic [ref=e2202]: "5"
+                  - generic [ref=e2203]:
+                    - heading "深度学习" [level=3] [ref=e2204]
+                    - paragraph [ref=e2205]: 现代 AI 的核心引擎
+                  - generic [ref=e2206]: 1/4 已掌握
+                - generic [ref=e2211]:
+                  - generic [ref=e2212]:
+                    - generic [ref=e2213]:
+                      - generic [ref=e2214]: 神经网络与反向传播
+                      - generic [ref=e2216]:
+                        - generic [ref=e2217]: 60分钟
+                        - generic [ref=e2218]: "难度: ★★★★"
+                        - generic [ref=e2219]: "掌握度: 78%"
+                    - button "测验" [ref=e2221] [cursor=pointer]
+                  - generic [ref=e2232]:
+                    - generic [ref=e2233]:
+                      - generic [ref=e2234]: 卷积神经网络 CNN
+                      - generic [ref=e2239]:
+                        - generic [ref=e2240]: 55分钟
+                        - generic [ref=e2241]: "难度: ★★★★"
+                        - generic [ref=e2242]: "掌握度: 86%"
+                    - generic [ref=e2243]: 已掌握
+                  - generic [ref=e2251]:
+                    - generic [ref=e2252]:
+                      - generic [ref=e2253]: 循环网络与序列建模
+                      - generic [ref=e2255]:
+                        - generic [ref=e2256]: 55分钟
+                        - generic [ref=e2257]: "难度: ★★★★"
+                        - generic [ref=e2258]: "掌握度: 62%"
+                    - button "测验" [ref=e2260] [cursor=pointer]
+                  - generic [ref=e2271]:
+                    - generic [ref=e2272]:
+                      - generic [ref=e2273]: Transformer 与注意力
+                      - generic [ref=e2275]:
+                        - generic [ref=e2276]: 70分钟
+                        - generic [ref=e2277]: "难度: ★★★★★"
+                        - generic [ref=e2278]: "掌握度: 35%"
+                    - button "学习" [ref=e2280] [cursor=pointer]
+              - generic [ref=e2283]:
+                - generic [ref=e2284] [cursor=pointer]:
+                  - generic [ref=e2285]: "6"
+                  - generic [ref=e2286]:
+                    - heading "大模型与多智能体" [level=3] [ref=e2287]
+                    - paragraph [ref=e2288]: 通往 AGI 的前沿路径
+                  - generic [ref=e2289]: 0/4 已掌握
+                - generic [ref=e2294]:
+                  - generic [ref=e2295]:
+                    - generic [ref=e2296]:
+                      - generic [ref=e2297]: 大模型预训练范式
+                      - generic [ref=e2299]:
+                        - generic [ref=e2300]: 65分钟
+                        - generic [ref=e2301]: "难度: ★★★★★"
+                    - button "学习" [ref=e2303] [cursor=pointer]
+                  - generic [ref=e2306]:
+                    - generic [ref=e2307]:
+                      - generic [ref=e2308]: 检索增强生成 RAG
+                      - generic [ref=e2310]:
+                        - generic [ref=e2311]: 50分钟
+                        - generic [ref=e2312]: "难度: ★★★★"
+                    - button "学习" [ref=e2314] [cursor=pointer]
+                  - generic [ref=e2317]:
+                    - generic [ref=e2318]:
+                      - generic [ref=e2319]: 智能体 Agent 架构
+                      - generic [ref=e2321]:
+                        - generic [ref=e2322]: 60分钟
+                        - generic [ref=e2323]: "难度: ★★★★★"
+                    - button "学习" [ref=e2325] [cursor=pointer]
+                  - generic [ref=e2328]:
+                    - generic [ref=e2329]:
+                      - generic [ref=e2330]: 多智能体协同框架
+                      - generic [ref=e2332]:
+                        - generic [ref=e2333]: 65分钟
+                        - generic [ref=e2334]: "难度: ★★★★★"
+                    - button "学习" [ref=e2336] [cursor=pointer]
+          - generic [ref=e2339]:
+            - generic [ref=e2340]:
+              - heading "知识点掌握热力图" [level=2] [ref=e2341]
+              - generic [ref=e2342]:
+                - 'generic "人工智能的定义与范畴: 92%" [ref=e2343] [cursor=pointer]':
+                  - generic [ref=e2344]: "92"
+                  - generic: 人工智能的定义与范畴
+                - 'generic "AI 发展三次浪潮: 88%" [ref=e2345] [cursor=pointer]':
+                  - generic [ref=e2346]: "88"
+                  - generic: AI 发展三次浪潮
+                - 'generic "三大研究学派: 85%" [ref=e2347] [cursor=pointer]':
+                  - generic [ref=e2348]: "85"
+                  - generic: 三大研究学派
+                - 'generic "AI 伦理与安全: 0%" [ref=e2349] [cursor=pointer]':
+                  - generic [ref=e2350]: "0"
+                  - generic: AI 伦理与安全
+                - 'generic "无信息搜索策略: 78%" [ref=e2351] [cursor=pointer]':
+                  - generic [ref=e2352]: "78"
+                  - generic: 无信息搜索策略
+                - 'generic "启发式搜索 A*: 72%" [ref=e2353] [cursor=pointer]':
+                  - generic [ref=e2354]: "72"
+                  - generic: 启发式搜索 A*
+                - 'generic "局部搜索与优化: 0%" [ref=e2355] [cursor=pointer]':
+                  - generic [ref=e2356]: "0"
+                  - generic: 局部搜索与优化
+                - 'generic "对抗搜索与博弈: 0%" [ref=e2357] [cursor=pointer]':
+                  - generic [ref=e2358]: "0"
+                  - generic: 对抗搜索与博弈
+                - 'generic "谓词逻辑与推理: 0%" [ref=e2359] [cursor=pointer]':
+                  - generic [ref=e2360]: "0"
+                  - generic: 谓词逻辑与推理
+                - 'generic "框架与语义网络: 0%" [ref=e2361] [cursor=pointer]':
+                  - generic [ref=e2362]: "0"
+                  - generic: 框架与语义网络
+                - 'generic "不确定知识与概率推理: 0%" [ref=e2363] [cursor=pointer]':
+                  - generic [ref=e2364]: "0"
+                  - generic: 不确定知识与概率推理
+                - 'generic "知识图谱构建与应用: 0%" [ref=e2365] [cursor=pointer]':
+                  - generic [ref=e2366]: "0"
+                  - generic: 知识图谱构建与应用
+                - 'generic "机器学习范式与分类: 84%" [ref=e2367] [cursor=pointer]':
+                  - generic [ref=e2368]: "84"
+                  - generic: 机器学习范式与分类
+                - 'generic "线性模型与正则化: 80%" [ref=e2369] [cursor=pointer]':
+                  - generic [ref=e2370]: "80"
+                  - generic: 线性模型与正则化
+                - 'generic "决策树与集成学习: 82%" [ref=e2371] [cursor=pointer]':
+                  - generic [ref=e2372]: "82"
+                  - generic: 决策树与集成学习
+                - 'generic "模型评估与超参调优: 0%" [ref=e2373] [cursor=pointer]':
+                  - generic [ref=e2374]: "0"
+                  - generic: 模型评估与超参调优
+                - 'generic "神经网络与反向传播: 78%" [ref=e2375] [cursor=pointer]':
+                  - generic [ref=e2376]: "78"
+                  - generic: 神经网络与反向传播
+                - 'generic "卷积神经网络 CNN: 86%" [ref=e2377] [cursor=pointer]':
+                  - generic [ref=e2378]: "86"
+                  - generic: 卷积神经网络 CNN
+                - 'generic "循环网络与序列建模: 62%" [ref=e2379] [cursor=pointer]':
+                  - generic [ref=e2380]: "62"
+                  - generic: 循环网络与序列建模
+                - 'generic "Transformer 与注意力: 35%" [ref=e2381] [cursor=pointer]':
+                  - generic [ref=e2382]: "35"
+                  - generic: Transformer 与注意力
+                - 'generic "大模型预训练范式: 0%" [ref=e2383] [cursor=pointer]':
+                  - generic [ref=e2384]: "0"
+                  - generic: 大模型预训练范式
+                - 'generic "检索增强生成 RAG: 0%" [ref=e2385] [cursor=pointer]':
+                  - generic [ref=e2386]: "0"
+                  - generic: 检索增强生成 RAG
+                - 'generic "智能体 Agent 架构: 0%" [ref=e2387] [cursor=pointer]':
+                  - generic [ref=e2388]: "0"
+                  - generic: 智能体 Agent 架构
+                - 'generic "多智能体协同框架: 0%" [ref=e2389] [cursor=pointer]':
+                  - generic [ref=e2390]: "0"
+                  - generic: 多智能体协同框架
+              - generic [ref=e2391]:
+                - generic [ref=e2392]: 未学习
+                - generic [ref=e2399]: 已掌握
+            - generic [ref=e2400]:
+              - heading "5 维效果雷达" [level=2] [ref=e2401]
+              - img [ref=e2402]:
+                - generic [ref=e2418]:
+                  - generic [ref=e2419]: 掌握度
+                  - generic [ref=e2420]: "78"
+                - generic [ref=e2421]:
+                  - generic [ref=e2422]: 熟练度
+                  - generic [ref=e2423]: "72"
+                - generic [ref=e2424]:
+                  - generic [ref=e2425]: 迁移力
+                  - generic [ref=e2426]: "68"
+                - generic [ref=e2427]:
+                  - generic [ref=e2428]: 坚持度
+                  - generic [ref=e2429]: "86"
+                - generic [ref=e2430]:
+                  - generic [ref=e2431]: 创新力
+                  - generic [ref=e2432]: "74"
+              - generic [ref=e2433]:
+                - generic [ref=e2434]: 当前
+                - generic [ref=e2436]: 基准
+            - generic [ref=e2438]:
+              - heading "薄弱知识点 TOP 3" [level=3] [ref=e2439]
+              - generic [ref=e2440]:
+                - generic [ref=e2441]:
+                  - generic [ref=e2444]: Transformer 与注意力
+                  - generic [ref=e2445]: 35%
+                - generic [ref=e2446]:
+                  - generic [ref=e2449]: 循环网络与序列建模
+                  - generic [ref=e2450]: 62%
+  - complementary "决赛演示向导" [ref=e1113]:
+    - generic [ref=e1116]:
+      - generic [ref=e1117]:
+        - generic [ref=e1125]:
+          - generic [ref=e1126]:
+            - generic [ref=e1127]: FINAL DEMO 5/5
+            - generic [ref=e1128]: 20 秒
+          - heading "效果闭环" [level=2] [ref=e2451]
+        - button "收起演示向导" [ref=e1130] [cursor=pointer]
+        - button "退出演示向导" [ref=e1136] [cursor=pointer]
+      - paragraph [ref=e1140]: 查看掌握度、薄弱点和自适应建议
+      - button "完成演示" [active] [ref=e2452] [cursor=pointer]

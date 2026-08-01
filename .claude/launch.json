@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "eduverse-preview",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd study && npm run preview -- --port 4319 --strictPort"],
+      "port": 4319
+    }
+  ]
+}

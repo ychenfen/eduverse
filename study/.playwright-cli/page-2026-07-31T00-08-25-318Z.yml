@@ -1,0 +1,283 @@
+- generic [ref=f5e3]:
+  - link "跳到主要内容" [ref=f5e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f5e5]:
+    - banner [ref=f5e6]:
+      - button "关闭菜单" [expanded] [active] [ref=f5e422] [cursor=pointer]
+      - navigation "面包屑" [ref=f5e9]:
+        - generic [ref=f5e10]: 工作台
+      - generic [ref=f5e11]:
+        - button "搜索" [ref=f5e12] [cursor=pointer]
+        - button "切换为深色主题" [ref=f5e16] [cursor=pointer]
+        - button "查看通知" [ref=f5e20] [cursor=pointer]
+    - main [ref=f5e25]:
+      - generic [ref=f5e26]:
+        - generic [ref=f5e29]:
+          - generic [ref=f5e30]: 多智能体协同 · 个性化学习 v2.0
+          - heading "智学灵境 · 你好，林知远" [level=1] [ref=f5e33]:
+            - text: 智学灵境
+            - generic [ref=f5e34]: · 你好，林知远
+          - paragraph [ref=f5e35]: 7 个角色化智能体正在为你的「考研深造 · 大模型方向」目标协同工作。 当前聚焦 深度学习 与 大模型 方向， 已为你生成 144 份多模态学习资源。
+          - generic [ref=f5e36]:
+            - link "立即生成资源" [ref=f5e37] [cursor=pointer]:
+              - /url: /workshop
+            - link "查看学习路径" [ref=f5e42] [cursor=pointer]:
+              - /url: /path
+        - generic [ref=f5e45]:
+          - heading "学习仪表盘" [level=2] [ref=f5e46]
+          - generic [ref=f5e47]:
+            - generic [ref=f5e48]:
+              - generic [ref=f5e49]: 今日
+              - generic [ref=f5e54]:
+                - generic [ref=f5e55]: "484"
+                - generic [ref=f5e56]: min
+              - generic [ref=f5e57]: 今日学习
+            - generic [ref=f5e59]:
+              - generic [ref=f5e60]: 今日
+              - generic [ref=f5e64]:
+                - generic [ref=f5e65]: "12"
+                - generic [ref=f5e66]: 天
+              - generic [ref=f5e67]: 连续打卡
+            - generic [ref=f5e69]:
+              - generic [ref=f5e70]: 今日
+              - generic [ref=f5e75]:
+                - generic [ref=f5e76]: "77"
+                - generic [ref=f5e77]: "%"
+              - generic [ref=f5e78]: 平均掌握
+            - generic [ref=f5e80]:
+              - generic [ref=f5e81]: 今日
+              - generic [ref=f5e87]:
+                - generic [ref=f5e88]: "13"
+                - generic [ref=f5e89]: 个
+              - generic [ref=f5e90]: 待学节点
+          - generic [ref=f5e92]:
+            - link "更新画像 随学随新" [ref=f5e93] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=f5e97]: 更新画像
+              - generic [ref=f5e98]: 随学随新
+            - link "资源工坊 6 类多模态生成" [ref=f5e101] [cursor=pointer]:
+              - /url: /workshop
+              - generic [ref=f5e105]: 资源工坊
+              - generic [ref=f5e106]: 6 类多模态生成
+            - link "智能辅导 即时答疑" [ref=f5e109] [cursor=pointer]:
+              - /url: /tutor
+              - generic [ref=f5e114]: 智能辅导
+              - generic [ref=f5e115]: 即时答疑
+            - link "学习评估 5 维效果分析" [ref=f5e118] [cursor=pointer]:
+              - /url: /assessment
+              - generic [ref=f5e123]: 学习评估
+              - generic [ref=f5e124]: 5 维效果分析
+        - generic [ref=f5e127]:
+          - generic [ref=f5e128]:
+            - generic [ref=f5e129]:
+              - heading "当前学习画像 · v2" [level=3] [ref=f5e130]
+              - link "查看详情 →" [ref=f5e131] [cursor=pointer]:
+                - /url: /profile
+            - img [ref=f5e132]:
+              - generic [ref=f5e148]:
+                - generic [ref=f5e149]: 知识基础
+                - generic [ref=f5e150]: "74"
+              - generic [ref=f5e151]:
+                - generic [ref=f5e152]: 认知风格
+                - generic [ref=f5e153]: "76"
+              - generic [ref=f5e154]:
+                - generic [ref=f5e155]: 易错偏好
+                - generic [ref=f5e156]: "61"
+              - generic [ref=f5e157]:
+                - generic [ref=f5e158]: 学习节奏
+                - generic [ref=f5e159]: "78"
+              - generic [ref=f5e160]:
+                - generic [ref=f5e161]: 兴趣方向
+                - generic [ref=f5e162]: "92"
+              - generic [ref=f5e163]:
+                - generic [ref=f5e164]: 目标导向
+                - generic [ref=f5e165]: "85"
+          - generic [ref=f5e166]:
+            - generic [ref=f5e167]:
+              - heading "智能体编队 · 7 角色" [level=3] [ref=f5e168]
+              - generic [ref=f5e169]: 全员在线
+            - generic [ref=f5e170]:
+              - generic [ref=f5e171]:
+                - generic "灵境 · 队长 · Captain" [ref=f5e172]: 灵
+                - generic [ref=f5e175]:
+                  - generic [ref=f5e176]:
+                    - generic [ref=f5e177]: 灵境
+                    - generic [ref=f5e178]: 队长 · Captain
+                  - paragraph [ref=f5e179]: 对话引导专家，负责学生画像构建与任务分发，是学生与智能体编队之间的桥梁。
+              - generic [ref=f5e180]:
+                - generic "解构者 · 知识架构师 · Deconstructor" [ref=f5e181]: 解
+                - generic [ref=f5e184]:
+                  - generic [ref=f5e185]:
+                    - generic [ref=f5e186]: 解构者
+                    - generic [ref=f5e187]: 知识架构师 · Deconstructor
+                  - paragraph [ref=f5e188]: 将复杂知识点拆解为可学习的结构化骨架，输出思维导图与知识依赖关系。
+              - generic [ref=f5e189]:
+                - generic "编织者 · 内容撰写师 · Weaver" [ref=f5e190]: 织
+                - generic [ref=f5e193]:
+                  - generic [ref=f5e194]:
+                    - generic [ref=f5e195]: 编织者
+                    - generic [ref=f5e196]: 内容撰写师 · Weaver
+                  - paragraph [ref=f5e197]: 将知识骨架织就为详实、可读的讲解文档与拓展阅读，注重叙事逻辑与学术严谨。
+              - generic [ref=f5e198]:
+                - generic "出题官 · 评测设计师 · QuizMaster" [ref=f5e199]: 题
+                - generic [ref=f5e202]:
+                  - generic [ref=f5e203]:
+                    - generic [ref=f5e204]: 出题官
+                    - generic [ref=f5e205]: 评测设计师 · QuizMaster
+                  - paragraph [ref=f5e206]: 依据知识图谱与画像易错点，生成多题型、多难度的练习题与解析。
+              - generic [ref=f5e207]:
+                - generic "视觉师 · 多模态设计师 · Visualist" [ref=f5e208]: 视
+                - generic [ref=f5e211]:
+                  - generic [ref=f5e212]:
+                    - generic [ref=f5e213]: 视觉师
+                    - generic [ref=f5e214]: 多模态设计师 · Visualist
+                  - paragraph [ref=f5e215]: 将抽象概念可视化为 SVG 图解与动画分镜脚本，让难懂的概念一目了然。
+              - generic [ref=f5e216]:
+                - generic "实操匠 · 代码工程师 · Coder" [ref=f5e217]: 码
+                - generic [ref=f5e220]:
+                  - generic [ref=f5e221]:
+                    - generic [ref=f5e222]: 实操匠
+                    - generic [ref=f5e223]: 代码工程师 · Coder
+                  - paragraph [ref=f5e224]: 生成可运行的代码案例与实验项目，覆盖环境配置、注释与单元测试。
+              - generic [ref=f5e225]:
+                - generic "校验官 · 防幻觉守门人 · Validator" [ref=f5e226]: 校
+                - generic [ref=f5e229]:
+                  - generic [ref=f5e230]:
+                    - generic [ref=f5e231]: 校验官
+                    - generic [ref=f5e232]: 防幻觉守门人 · Validator
+                  - paragraph [ref=f5e233]: 对照本地知识库进行事实核查、安全过滤与引用补全，确保输出无幻觉、无违规。
+        - generic [ref=f5e234]:
+          - heading "《人工智能导论》课程结构" [level=2] [ref=f5e235]
+          - generic [ref=f5e236]:
+            - generic [ref=f5e237]:
+              - generic [ref=f5e238]:
+                - generic [ref=f5e239]: 第 1 章
+                - generic [ref=f5e240]: 3/4
+              - heading "AI 绪论与发展史" [level=3] [ref=f5e241]
+              - paragraph [ref=f5e242]: 建立 AI 学科全景认知
+            - generic [ref=f5e245]:
+              - generic [ref=f5e246]:
+                - generic [ref=f5e247]: 第 2 章
+                - generic [ref=f5e248]: 2/4
+              - heading "搜索与优化" [level=3] [ref=f5e249]
+              - paragraph [ref=f5e250]: 经典问题求解的核心方法
+            - generic [ref=f5e253]:
+              - generic [ref=f5e254]:
+                - generic [ref=f5e255]: 第 3 章
+                - generic [ref=f5e256]: 0/4
+              - heading "知识表示与推理" [level=3] [ref=f5e257]
+              - paragraph [ref=f5e258]: 符号 AI 的形式化基础
+            - generic [ref=f5e260]:
+              - generic [ref=f5e261]:
+                - generic [ref=f5e262]: 第 4 章
+                - generic [ref=f5e263]: 3/4
+              - heading "机器学习基础" [level=3] [ref=f5e264]
+              - paragraph [ref=f5e265]: 数据驱动的学习范式
+            - generic [ref=f5e268]:
+              - generic [ref=f5e269]:
+                - generic [ref=f5e270]: 第 5 章
+                - generic [ref=f5e271]: 4/4
+              - heading "深度学习" [level=3] [ref=f5e272]
+              - paragraph [ref=f5e273]: 现代 AI 的核心引擎
+            - generic [ref=f5e276]:
+              - generic [ref=f5e277]:
+                - generic [ref=f5e278]: 第 6 章
+                - generic [ref=f5e279]: 0/4
+              - heading "大模型与多智能体" [level=3] [ref=f5e280]
+              - paragraph [ref=f5e281]: 通往 AGI 的前沿路径
+        - generic [ref=f5e283]:
+          - generic [ref=f5e284]:
+            - heading "为你推荐" [level=2] [ref=f5e285]
+            - link "查看全部 →" [ref=f5e286] [cursor=pointer]:
+              - /url: /library
+          - generic [ref=f5e287]:
+            - generic [ref=f5e288]:
+              - generic [ref=f5e289]: 讲解文档
+              - heading "Transformer 与注意力 · 讲解文档" [level=3] [ref=f5e306]
+              - generic [ref=f5e307]:
+                - generic [ref=f5e308]: 70min
+                - generic [ref=f5e312]: 2 引用
+                - generic [ref=f5e316]: 已校验
+              - button "收藏" [ref=f5e320] [cursor=pointer]
+            - generic [ref=f5e323]:
+              - generic [ref=f5e324]: 思维导图
+              - heading "Transformer 与注意力 · 思维导图" [level=3] [ref=f5e343]
+              - generic [ref=f5e344]:
+                - generic [ref=f5e345]: 70min
+                - generic [ref=f5e349]: 16 节点
+                - generic [ref=f5e350]: 已校验
+              - button "收藏" [ref=f5e354] [cursor=pointer]
+            - generic [ref=f5e357]:
+              - generic [ref=f5e358]: 题库
+              - heading "Transformer 与注意力 · 题库" [level=3] [ref=f5e375]
+              - generic [ref=f5e376]:
+                - generic [ref=f5e377]: 15min
+                - generic [ref=f5e381]: 已校验
+              - button "收藏" [ref=f5e385] [cursor=pointer]
+            - generic [ref=f5e388]:
+              - generic [ref=f5e389]: 拓展阅读
+              - heading "Transformer 与注意力 · 拓展阅读" [level=3] [ref=f5e405]
+              - generic [ref=f5e406]:
+                - generic [ref=f5e407]: 70min
+                - generic [ref=f5e411]: 2 引用
+                - generic [ref=f5e415]: 已校验
+              - button "收藏" [ref=f5e419] [cursor=pointer]
+  - dialog "移动端导航" [ref=f5e423]:
+    - button "关闭菜单" [ref=f5e424] [cursor=pointer]
+    - complementary "主导航" [ref=f5e426]:
+      - generic [ref=f5e427]:
+        - generic [ref=f5e432]:
+          - generic [ref=f5e433]: 智学灵境
+          - generic [ref=f5e434]: EDUVERSE
+        - button "关闭菜单" [ref=f5e435] [cursor=pointer]
+      - navigation [ref=f5e439]:
+        - link "工作台" [ref=f5e440] [cursor=pointer]:
+          - /url: /
+        - link "学习画像" [ref=f5e448] [cursor=pointer]:
+          - /url: /profile
+        - link "学习计划" [ref=f5e454] [cursor=pointer]:
+          - /url: /plan
+        - link "资源工坊" [ref=f5e458] [cursor=pointer]:
+          - /url: /workshop
+        - link "学习路径" [ref=f5e462] [cursor=pointer]:
+          - /url: /path
+        - link "题库训练" [ref=f5e468] [cursor=pointer]:
+          - /url: /practice
+        - link "智能辅导" [ref=f5e475] [cursor=pointer]:
+          - /url: /tutor
+        - link "学习评估" [ref=f5e480] [cursor=pointer]:
+          - /url: /assessment
+        - link "资源中心" [ref=f5e485] [cursor=pointer]:
+          - /url: /library
+      - generic [ref=f5e489]:
+        - generic [ref=f5e490]:
+          - generic [ref=f5e491]: 智能体编队
+          - generic [ref=f5e492]: 7 在线
+        - generic [ref=f5e493]:
+          - generic [ref=f5e494]:
+            - generic "灵境 · 队长 · Captain" [ref=f5e495]: 灵
+            - generic [ref=f5e498]: 灵境
+          - generic [ref=f5e499]:
+            - generic "解构者 · 知识架构师 · Deconstructor" [ref=f5e500]: 解
+            - generic [ref=f5e503]: 解构者
+          - generic [ref=f5e504]:
+            - generic "编织者 · 内容撰写师 · Weaver" [ref=f5e505]: 织
+            - generic [ref=f5e508]: 编织者
+          - generic [ref=f5e509]:
+            - generic "出题官 · 评测设计师 · QuizMaster" [ref=f5e510]: 题
+            - generic [ref=f5e513]: 出题官
+          - generic [ref=f5e514]:
+            - generic "视觉师 · 多模态设计师 · Visualist" [ref=f5e515]: 视
+            - generic [ref=f5e518]: 视觉师
+          - generic [ref=f5e519]:
+            - generic "实操匠 · 代码工程师 · Coder" [ref=f5e520]: 码
+            - generic [ref=f5e523]: 实操匠
+          - generic [ref=f5e524]:
+            - generic "校验官 · 防幻觉守门人 · Validator" [ref=f5e525]: 校
+            - generic [ref=f5e528]: 校验官
+      - generic [ref=f5e530]:
+        - generic [ref=f5e531]: 知
+        - generic [ref=f5e532]:
+          - generic [ref=f5e533]: 林知远
+          - generic [ref=f5e534]: 本科大三
+        - button "切换身份或重新构建画像" [ref=f5e535] [cursor=pointer]

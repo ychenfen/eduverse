@@ -1,0 +1,228 @@
+- generic [ref=e3]:
+  - link "跳到主要内容" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - complementary "主导航" [ref=e5]:
+    - generic [ref=e11]:
+      - generic [ref=e12]: 智学灵境
+      - generic [ref=e13]: EDUVERSE
+    - navigation [ref=e14]:
+      - link "工作台" [ref=e15] [cursor=pointer]:
+        - /url: /
+      - link "决赛演示" [ref=e23] [cursor=pointer]:
+        - /url: /showcase
+      - link "学习画像" [ref=e28] [cursor=pointer]:
+        - /url: /profile
+      - link "学习计划" [ref=e34] [cursor=pointer]:
+        - /url: /plan
+      - link "资源工坊" [ref=e38] [cursor=pointer]:
+        - /url: /workshop
+      - link "学习路径" [ref=e42] [cursor=pointer]:
+        - /url: /path
+      - link "题库训练" [ref=e48] [cursor=pointer]:
+        - /url: /practice
+      - link "智能辅导" [ref=e55] [cursor=pointer]:
+        - /url: /tutor
+      - link "学习评估" [ref=e60] [cursor=pointer]:
+        - /url: /assessment
+      - link "资源中心" [ref=e65] [cursor=pointer]:
+        - /url: /library
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: 智能体编队
+        - generic [ref=e72]: 7 在线
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic "灵境 · 队长 · Captain" [ref=e75]: 灵
+          - generic [ref=e78]: 灵境
+        - generic [ref=e79]:
+          - generic "解构者 · 知识架构师 · Deconstructor" [ref=e80]: 解
+          - generic [ref=e83]: 解构者
+        - generic [ref=e84]:
+          - generic "编织者 · 内容撰写师 · Weaver" [ref=e85]: 织
+          - generic [ref=e88]: 编织者
+        - generic [ref=e89]:
+          - generic "出题官 · 评测设计师 · QuizMaster" [ref=e90]: 题
+          - generic [ref=e93]: 出题官
+        - generic [ref=e94]:
+          - generic "视觉师 · 多模态设计师 · Visualist" [ref=e95]: 视
+          - generic [ref=e98]: 视觉师
+        - generic [ref=e99]:
+          - generic "实操匠 · 代码工程师 · Coder" [ref=e100]: 码
+          - generic [ref=e103]: 实操匠
+        - generic [ref=e104]:
+          - generic "校验官 · 防幻觉守门人 · Validator" [ref=e105]: 校
+          - generic [ref=e108]: 校验官
+    - generic [ref=e110]:
+      - generic [ref=e111]: 知
+      - generic [ref=e112]:
+        - generic [ref=e113]: 林知远
+        - generic [ref=e114]: 本科大三
+      - button "切换身份或重新构建画像" [ref=e115] [cursor=pointer]
+  - generic [ref=e119]:
+    - banner [ref=e120]:
+      - navigation "面包屑" [ref=e121]:
+        - link "智学灵境" [ref=e122] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e125]: 决赛演示
+      - generic [ref=e126]:
+        - button "打开全局搜索" [ref=e127] [cursor=pointer]:
+          - generic [ref=e131]: 搜索知识点 / 资源 / 智能体…
+          - generic [ref=e132]: ⌘K
+        - button "切换为浅色主题" [ref=e133] [cursor=pointer]
+        - button "查看通知" [ref=e141] [cursor=pointer]
+        - generic [ref=e146]: 编队在线
+    - main [ref=e148]:
+      - generic [ref=e621]:
+        - generic [ref=e623]:
+          - generic [ref=e624]:
+            - generic [ref=e625]:
+              - generic [ref=e626]: FINAL DEMO · 决赛演示台
+              - generic [ref=e629]: 3 分钟·验证一个真实学习闭环
+            - heading "不是又一个内容生成器， 而是会随学习改变的智能体系统。" [level=1] [ref=e630]:
+              - text: 不是又一个内容生成器，
+              - generic [ref=e631]: 而是会随学习改变的智能体系统。
+            - paragraph [ref=e632]: 智学灵境把「画像建模—资源生成—路径规划—学习练习—效果评估」连成一条可解释、可追踪、可持续调整的高等教育个性化学习链路。
+            - generic [ref=e633]:
+              - link "开始 3 分钟演示" [ref=e634] [cursor=pointer]:
+                - /url: /profile?demo=1
+              - link "先看演示路线" [ref=e639] [cursor=pointer]:
+                - /url: "#demo-route"
+          - generic [ref=e645]:
+            - generic [ref=e647]:
+              - generic [ref=e648]: LIVE LEARNING PROOF
+              - generic [ref=e649]: 林知远·实时学习态
+            - generic [ref=e664]:
+              - generic [ref=e665]:
+                - generic [ref=e666]: v2
+                - generic [ref=e667]: 画像版本
+              - generic [ref=e668]:
+                - generic [ref=e669]: "78"
+                - generic [ref=e670]: 六维均值
+              - generic [ref=e671]:
+                - generic [ref=e672]: 11/24
+                - generic [ref=e673]: 已学知识点
+            - generic [ref=e674]:
+              - generic [ref=e675]: 当前调优焦点
+              - generic [ref=e680]: Transformer 与注意力
+              - generic [ref=e681]: 掌握度 35%·系统已提升图解、代码和针对性题库的推荐权重。
+            - generic [ref=e682]:
+              - generic [ref=e683]: 144/144 资源通过校验
+              - generic [ref=e684]: 数据已就绪
+        - region "可验证系统规模" [ref=e688]:
+          - generic [ref=e694]:
+            - generic [ref=e695]: 7 个
+            - generic [ref=e696]: 角色化智能体
+          - generic [ref=e702]:
+            - generic [ref=e703]: 24 个
+            - generic [ref=e704]: 课程知识节点
+          - generic [ref=e711]:
+            - generic [ref=e712]: 144 份
+            - generic [ref=e713]: 多模态学习资源
+          - generic [ref=e718]:
+            - generic [ref=e719]: 6 类
+            - generic [ref=e720]: 可生成资源形态
+        - generic [ref=e721]:
+          - generic [ref=e722]:
+            - generic [ref=e723]:
+              - generic [ref=e724]: JUDGE ROUTE / 评审路线
+              - heading "3 分钟，五步验证核心闭环" [level=2] [ref=e725]
+            - generic [ref=e726]: 180 秒设计，每一步都有可点击的产品证据
+          - generic [ref=e729]:
+            - link "01 35 秒 画像不是问卷 从自然语言和学习行为中抽取六维特征，展示版本证据与动态变化。 看画像版本与证据链" [ref=e730] [cursor=pointer]:
+              - /url: /profile?demo=1
+              - generic [ref=e731]: "01"
+              - generic [ref=e732]: 35 秒
+              - generic [ref=e736]:
+                - generic [ref=e737]: 画像不是问卷
+                - generic [ref=e738]: 从自然语言和学习行为中抽取六维特征，展示版本证据与动态变化。
+              - generic [ref=e739]: 看画像版本与证据链
+            - link "02 55 秒 资源不是套模板 选择任意知识主题，观察角色智能体协作生成、校验并入库的全过程。 现场生成一份多模态资源" [ref=e742] [cursor=pointer]:
+              - /url: /workshop?demo=1
+              - generic [ref=e743]: "02"
+              - generic [ref=e744]: 55 秒
+              - generic [ref=e748]:
+                - generic [ref=e749]: 资源不是套模板
+                - generic [ref=e750]: 选择任意知识主题，观察角色智能体协作生成、校验并入库的全过程。
+              - generic [ref=e751]: 现场生成一份多模态资源
+            - link "03 30 秒 推荐不是黑盒 画像、知识依赖和掌握度共同决定路径状态，每个推荐都给出原因。 查看 Transformer 推荐依据" [ref=e754] [cursor=pointer]:
+              - /url: /path?demo=1
+              - generic [ref=e755]: "03"
+              - generic [ref=e756]: 30 秒
+              - generic [ref=e760]:
+                - generic [ref=e761]: 推荐不是黑盒
+                - generic [ref=e762]: 画像、知识依赖和掌握度共同决定路径状态，每个推荐都给出原因。
+              - generic [ref=e763]: 查看 Transformer 推荐依据
+            - link "04 40 秒 学习不是只看内容 完成专项练习，结果写回学习记录并成为下一轮画像和路径调整的依据。 完成一道题并查看解析" [ref=e766] [cursor=pointer]:
+              - /url: /practice?demo=1
+              - generic [ref=e767]: "04"
+              - generic [ref=e768]: 40 秒
+              - generic [ref=e772]:
+                - generic [ref=e773]: 学习不是只看内容
+                - generic [ref=e774]: 完成专项练习，结果写回学习记录并成为下一轮画像和路径调整的依据。
+              - generic [ref=e775]: 完成一道题并查看解析
+            - link "05 20 秒 效果不是自说自话 用掌握度、练习、时间、画像变化和薄弱点诊断验证学习效果。 打开可追溯评估报告" [ref=e778] [cursor=pointer]:
+              - /url: /assessment?demo=1
+              - generic [ref=e779]: "05"
+              - generic [ref=e780]: 20 秒
+              - generic [ref=e784]:
+                - generic [ref=e785]: 效果不是自说自话
+                - generic [ref=e786]: 用掌握度、练习、时间、画像变化和薄弱点诊断验证学习效果。
+              - generic [ref=e787]: 打开可追溯评估报告
+        - generic [ref=e790]:
+          - generic [ref=e791]:
+            - generic [ref=e792]: AGENT ORCHESTRA
+            - heading "一支有分工、有质检的学习编队" [level=2] [ref=e796]
+            - paragraph [ref=e797]: 队长理解目标并调度任务，专业角色各司其职，校验官守住最后一道质量门。
+            - generic [ref=e798]:
+              - generic [ref=e799]:
+                - generic "灵境 · 队长 · Captain" [ref=e800]: 灵
+                - generic [ref=e803]: 灵境
+              - generic [ref=e805]:
+                - generic "解构者 · 知识架构师 · Deconstructor" [ref=e806]: 解
+                - generic [ref=e809]: 解构者
+              - generic [ref=e811]:
+                - generic "编织者 · 内容撰写师 · Weaver" [ref=e812]: 织
+                - generic [ref=e815]: 编织者
+              - generic [ref=e817]:
+                - generic "出题官 · 评测设计师 · QuizMaster" [ref=e818]: 题
+                - generic [ref=e821]: 出题官
+              - generic [ref=e823]:
+                - generic "视觉师 · 多模态设计师 · Visualist" [ref=e824]: 视
+                - generic [ref=e827]: 视觉师
+              - generic [ref=e829]:
+                - generic "实操匠 · 代码工程师 · Coder" [ref=e830]: 码
+                - generic [ref=e833]: 实操匠
+              - generic [ref=e835]:
+                - generic "校验官 · 防幻觉守门人 · Validator" [ref=e836]: 校
+                - generic [ref=e839]: 校验官
+            - link "现场观看一次编队协作" [ref=e840] [cursor=pointer]:
+              - /url: /workshop
+          - generic [ref=e843]:
+            - link [ref=e844] [cursor=pointer]:
+              - /url: /profile
+              - heading "画像有证据" [level=3] [ref=e855]
+              - paragraph [ref=e856]: 每个维度保存分数、标签、抽取依据和版本触发原因，支持随学随新。
+              - generic [ref=e857]: 验证画像
+            - link [ref=e860] [cursor=pointer]:
+              - /url: /workshop
+              - heading "协作有轨迹" [level=3] [ref=e867]
+              - paragraph [ref=e868]: 生成过程公开 thinking、generating、validating、done 四阶段日志。
+              - generic [ref=e869]: 验证编队
+            - link [ref=e872] [cursor=pointer]:
+              - /url: /library
+              - heading "内容有校验" [level=3] [ref=e877]
+              - paragraph [ref=e878]: 知识白名单、结构检查、敏感过滤与引用补全共同组成安全门禁。
+              - generic [ref=e879]: 验证资源
+            - link [ref=e882] [cursor=pointer]:
+              - /url: /assessment
+              - heading "学习有反馈" [level=3] [ref=e888]
+              - paragraph [ref=e889]: 学习、测验和练习记录回流至评估，驱动下一步计划与资源推荐。
+              - generic [ref=e890]: 验证闭环
+        - generic [ref=e893]:
+          - heading "让评委看到的不只是功能，而是改变如何发生。" [level=2] [ref=e898]
+          - paragraph [ref=e899]: 从一条学习证据开始，到一次精准调整结束。整个过程可解释、可验证、可继续。
+          - generic [ref=e900]:
+            - link "进入决赛演示" [ref=e901] [cursor=pointer]:
+              - /url: /profile?demo=1
+            - link "查看学习成效" [ref=e904] [cursor=pointer]:
+              - /url: /assessment

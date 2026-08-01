@@ -1,0 +1,212 @@
+- generic [ref=f1e11]:
+  - link "跳到主要内容" [ref=f1e12] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f1e127]:
+    - banner [ref=f1e128]:
+      - button "打开菜单" [ref=f1e574] [cursor=pointer]
+      - navigation "面包屑" [ref=f1e129]:
+        - generic [ref=f1e133]: 工作台
+      - generic [ref=f1e134]:
+        - button "搜索" [ref=f1e576] [cursor=pointer]
+        - button "切换为深色主题" [active] [ref=f1e580] [cursor=pointer]
+        - button "查看通知" [ref=f1e149] [cursor=pointer]
+    - main [ref=f1e156]:
+      - generic [ref=f1e157]:
+        - generic [ref=f1e159]:
+          - generic [ref=f1e160]:
+            - generic [ref=f1e161]: 7 个角色智能体正在围绕同一学习目标协作
+            - paragraph [ref=f1e165]: EDUVERSE · PERSONAL LEARNING LOOP
+            - heading "不是再给一份标准答案， 而是为每个学生重组学习过程" [level=1] [ref=f1e166]: 不是再给一份标准答案，而是为每个学生重组学习过程
+            - paragraph [ref=f1e167]: 传统在线课程提供相同内容、相同顺序，往往直到考试才暴露问题。 智学灵境让画像、规划、内容生成、辅导与评估形成闭环，每一次学习结果都会改变下一步。
+            - generic [ref=f1e168]:
+              - link "启动第一项学习任务" [ref=f1e169] [cursor=pointer]:
+                - /url: /plan
+              - link "查看系统如何改写路径" [ref=f1e174] [cursor=pointer]:
+                - /url: /path
+            - generic [ref=f1e179]:
+              - generic [ref=f1e180]:
+                - text: "01"
+                - paragraph [ref=f1e181]: 识别差异
+                - paragraph [ref=f1e182]: 画像有证据
+              - generic [ref=f1e183]:
+                - text: "02"
+                - paragraph [ref=f1e184]: 编队协作
+                - paragraph [ref=f1e185]: 角色有分工
+              - generic [ref=f1e186]:
+                - text: "03"
+                - paragraph [ref=f1e187]: 个性生成
+                - paragraph [ref=f1e188]: 资源有依据
+              - generic [ref=f1e189]:
+                - text: "04"
+                - paragraph [ref=f1e190]: 结果回流
+                - paragraph [ref=f1e191]: 路径会进化
+          - generic [ref=f1e194]:
+            - generic [ref=f1e196]:
+              - generic [ref=f1e197]:
+                - paragraph [ref=f1e198]: LIVE DECISION
+                - heading "林知远的下一步，不由课表决定" [level=2] [ref=f1e199]
+              - generic "灵境 · 队长 · Captain" [ref=f1e200]: 灵
+            - generic [ref=f1e203]:
+              - generic [ref=f1e211]:
+                - paragraph [ref=f1e212]: 学习证据
+                - paragraph [ref=f1e213]: 本科大三 · 考研深造 · 大模型方向
+              - generic [ref=f1e228]:
+                - paragraph [ref=f1e229]: 协作判断
+                - paragraph [ref=f1e230]: 队长分发画像、路径与首课任务
+              - generic [ref=f1e236]:
+                - paragraph [ref=f1e237]: 质量门禁
+                - paragraph [ref=f1e238]: 生成结果经过结构拆解、内容生成与事实校验
+            - generic [ref=f1e239]:
+              - generic [ref=f1e240]: 个性化决策
+              - paragraph [ref=f1e244]: 先做首课，再让真实行为修正画像
+              - paragraph [ref=f1e245]: 先用一节真实学习任务建立行为证据，画像会随学习结果持续更新。
+              - generic [ref=f1e246]:
+                - generic [ref=f1e247]: 讲解文档
+                - generic [ref=f1e248]: 思维导图
+                - generic [ref=f1e249]: 智能题组
+            - link "查看这次决策的评估依据" [ref=f1e250] [cursor=pointer]:
+              - /url: /assessment
+        - region [ref=f1e253]:
+          - generic [ref=f1e254]:
+            - paragraph [ref=f1e255]: 从功能堆叠到协作闭环
+            - heading "一个学习问题，如何被 7 个智能体共同解决" [level=2] [ref=f1e256]
+            - paragraph [ref=f1e257]: 每个角色只做自己擅长的判断，队长负责调度，校验官负责守住事实边界；过程和产物都可以在系统里继续查看。
+          - generic [ref=f1e258]:
+            - link "01 先理解学生 从目标、基础、认知风格、节奏与易错证据构建六维画像。 当前 6 维 · v1" [ref=f1e259] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=f1e260]: "01"
+              - heading "先理解学生" [level=3] [ref=f1e268]
+              - paragraph [ref=f1e269]: 从目标、基础、认知风格、节奏与易错证据构建六维画像。
+              - generic [ref=f1e270]: 当前 6 维 · v1
+            - link "02 再组织专家 按任务动态编队，不让一个通用模型包办拆解、生成和校验。 7 角色 · 按需协同" [ref=f1e274] [cursor=pointer]:
+              - /url: /workshop
+              - generic [ref=f1e275]: "02"
+              - heading "再组织专家" [level=3] [ref=f1e283]
+              - paragraph [ref=f1e284]: 按任务动态编队，不让一个通用模型包办拆解、生成和校验。
+              - generic [ref=f1e285]: 7 角色 · 按需协同
+            - link "03 生成适配资源 同一知识点按画像重组为文档、导图、题组、动画、阅读和代码。 144 份 · 6 种形态" [ref=f1e289] [cursor=pointer]:
+              - /url: /library
+              - generic [ref=f1e290]: "03"
+              - heading "生成适配资源" [level=3] [ref=f1e296]
+              - paragraph [ref=f1e297]: 同一知识点按画像重组为文档、导图、题组、动画、阅读和代码。
+              - generic [ref=f1e298]: 144 份 · 6 种形态
+            - link "04 用结果再规划 掌握度、错题与学习时长回流画像，下一条路径随之改变。 等待首条学习证据" [ref=f1e302] [cursor=pointer]:
+              - /url: /assessment
+              - generic [ref=f1e303]: "04"
+              - heading "用结果再规划" [level=3] [ref=f1e309]
+              - paragraph [ref=f1e310]: 掌握度、错题与学习时长回流画像，下一条路径随之改变。
+              - generic [ref=f1e311]: 等待首条学习证据
+        - generic [ref=f1e317]:
+          - generic [ref=f1e318]:
+            - generic [ref=f1e319]:
+              - generic [ref=f1e320]:
+                - paragraph [ref=f1e321]: PERSONALIZED RESULT
+                - heading "结果不是一句“因材施教”" [level=2] [ref=f1e322]
+              - link "查看画像" [ref=f1e323] [cursor=pointer]:
+                - /url: /profile
+            - paragraph [ref=f1e324]: 系统保留“为什么这样推荐”的证据，并把画像变化、资源选择与学习结果放在同一条链路里。
+            - img [ref=f1e326]:
+              - generic [ref=f1e342]:
+                - generic [ref=f1e343]: 知识基础
+                - generic [ref=f1e344]: "68"
+              - generic [ref=f1e345]:
+                - generic [ref=f1e346]: 认知风格
+                - generic [ref=f1e347]: "76"
+              - generic [ref=f1e348]:
+                - generic [ref=f1e349]: 易错偏好
+                - generic [ref=f1e350]: "54"
+              - generic [ref=f1e351]:
+                - generic [ref=f1e352]: 学习节奏
+                - generic [ref=f1e353]: "72"
+              - generic [ref=f1e354]:
+                - generic [ref=f1e355]: 兴趣方向
+                - generic [ref=f1e356]: "88"
+              - generic [ref=f1e357]:
+                - generic [ref=f1e358]: 目标导向
+                - generic [ref=f1e359]: "82"
+            - generic [ref=f1e360]:
+              - generic [ref=f1e361]:
+                - paragraph [ref=f1e362]: 优势证据
+                - generic [ref=f1e363]:
+                  - generic [ref=f1e364]: 兴趣方向
+                  - generic [ref=f1e365]: "88"
+              - generic [ref=f1e368]:
+                - paragraph [ref=f1e369]: 当前补强
+                - generic [ref=f1e370]:
+                  - generic [ref=f1e371]: 易错偏好
+                  - generic [ref=f1e372]: "54"
+          - generic [ref=f1e375]:
+            - generic [ref=f1e376]:
+              - generic [ref=f1e377]:
+                - paragraph [ref=f1e378]: MEASURABLE EVIDENCE
+                - heading "每个数字都有页面可核验" [level=2] [ref=f1e379]
+              - generic [ref=f1e380]: 当前学习者 · 林知远
+            - generic [ref=f1e381]:
+              - generic [ref=f1e382]:
+                - paragraph [ref=f1e384]: 画像版本
+                - paragraph [ref=f1e390]: v1
+                - paragraph [ref=f1e391]: 6 维证据持续更新
+              - generic [ref=f1e393]:
+                - paragraph [ref=f1e395]: 学习结果
+                - paragraph [ref=f1e399]: 待建立
+                - paragraph [ref=f1e400]: 完成首个任务后生成
+              - generic [ref=f1e402]:
+                - paragraph [ref=f1e404]: 内容供给
+                - paragraph [ref=f1e409]: "144"
+                - paragraph [ref=f1e410]: 6 类多模态学习资源
+              - generic [ref=f1e412]:
+                - paragraph [ref=f1e414]: 计划执行
+                - paragraph [ref=f1e419]: 0/30
+                - paragraph [ref=f1e420]: 60 分钟日学习节奏
+            - generic [ref=f1e423]:
+              - generic [ref=f1e424]:
+                - generic [ref=f1e425]: 下一项可执行任务
+                - heading "完成首项计划，建立你的第一条学习证据" [level=3] [ref=f1e429]
+                - paragraph [ref=f1e430]: 先用一节真实学习任务建立行为证据，画像会随学习结果持续更新。
+              - link "立即执行" [ref=f1e431] [cursor=pointer]:
+                - /url: /plan
+        - generic [ref=f1e434]:
+          - generic [ref=f1e435]:
+            - generic [ref=f1e436]:
+              - paragraph [ref=f1e437]: 为当前决策准备
+              - heading "从第一项任务开始建立真实画像" [level=2] [ref=f1e438]
+              - paragraph [ref=f1e439]: 不是随机推荐：资源围绕当前知识节点，并由不同角色智能体协作生成。
+            - link "查看完整资源包" [ref=f1e440] [cursor=pointer]:
+              - /url: /library?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8E%E8%8C%83%E7%95%B4
+          - generic [ref=f1e443]:
+            - generic [ref=f1e444]:
+              - generic [ref=f1e445]: 讲解文档
+              - heading "人工智能的定义与范畴 · 讲解文档" [level=3] [ref=f1e462]
+              - generic [ref=f1e463]:
+                - generic [ref=f1e464]: 25min
+                - generic [ref=f1e468]: 2 引用
+                - generic [ref=f1e472]: 已校验
+              - button "收藏" [ref=f1e476] [cursor=pointer]
+            - generic [ref=f1e479]:
+              - generic [ref=f1e480]: 思维导图
+              - heading "人工智能的定义与范畴 · 思维导图" [level=3] [ref=f1e499]
+              - generic [ref=f1e500]:
+                - generic [ref=f1e501]: 25min
+                - generic [ref=f1e505]: 15 节点
+                - generic [ref=f1e506]: 已校验
+              - button "收藏" [ref=f1e510] [cursor=pointer]
+            - generic [ref=f1e513]:
+              - generic [ref=f1e514]: 题库
+              - heading "人工智能的定义与范畴 · 题库" [level=3] [ref=f1e531]
+              - generic [ref=f1e532]:
+                - generic [ref=f1e533]: 15min
+                - generic [ref=f1e537]: 已校验
+              - button "收藏" [ref=f1e541] [cursor=pointer]
+        - generic [ref=f1e546]:
+          - generic [ref=f1e547]:
+            - generic [ref=f1e548]: 从这里继续验证完整闭环
+            - heading "选择一个真实动作，看画像、资源与路径如何联动" [level=2] [ref=f1e551]
+          - generic [ref=f1e552]:
+            - link "生成资源" [ref=f1e553] [cursor=pointer]:
+              - /url: /workshop
+            - link "追问导师" [ref=f1e558] [cursor=pointer]:
+              - /url: /tutor
+            - link "进入训练" [ref=f1e563] [cursor=pointer]:
+              - /url: /practice
+            - link "查看评估" [ref=f1e568] [cursor=pointer]:
+              - /url: /assessment

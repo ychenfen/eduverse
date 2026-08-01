@@ -1,0 +1,237 @@
+- generic [ref=e3]:
+  - link "跳到主要内容" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - complementary "主导航" [ref=e5]:
+    - generic [ref=e11]:
+      - generic [ref=e12]: 智学灵境
+      - generic [ref=e13]: EDUVERSE
+    - navigation [ref=e14]:
+      - link "工作台" [ref=e15] [cursor=pointer]:
+        - /url: /
+      - link "决赛演示" [ref=e23] [cursor=pointer]:
+        - /url: /showcase
+      - link "学习画像" [ref=e28] [cursor=pointer]:
+        - /url: /profile
+      - link "学习计划" [ref=e34] [cursor=pointer]:
+        - /url: /plan
+      - link "资源工坊" [ref=e38] [cursor=pointer]:
+        - /url: /workshop
+      - link "学习路径" [ref=e42] [cursor=pointer]:
+        - /url: /path
+      - link "题库训练" [ref=e48] [cursor=pointer]:
+        - /url: /practice
+      - link "智能辅导" [ref=e55] [cursor=pointer]:
+        - /url: /tutor
+      - link "学习评估" [ref=e60] [cursor=pointer]:
+        - /url: /assessment
+      - link "资源中心" [ref=e65] [cursor=pointer]:
+        - /url: /library
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: 智能体编队
+        - generic [ref=e72]: 7 在线
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic "灵境 · 队长 · Captain" [ref=e75]: 灵
+          - generic [ref=e78]: 灵境
+        - generic [ref=e79]:
+          - generic "解构者 · 知识架构师 · Deconstructor" [ref=e80]: 解
+          - generic [ref=e83]: 解构者
+        - generic [ref=e84]:
+          - generic "编织者 · 内容撰写师 · Weaver" [ref=e85]: 织
+          - generic [ref=e88]: 编织者
+        - generic [ref=e89]:
+          - generic "出题官 · 评测设计师 · QuizMaster" [ref=e90]: 题
+          - generic [ref=e93]: 出题官
+        - generic [ref=e94]:
+          - generic "视觉师 · 多模态设计师 · Visualist" [ref=e95]: 视
+          - generic [ref=e98]: 视觉师
+        - generic [ref=e99]:
+          - generic "实操匠 · 代码工程师 · Coder" [ref=e100]: 码
+          - generic [ref=e103]: 实操匠
+        - generic [ref=e104]:
+          - generic "校验官 · 防幻觉守门人 · Validator" [ref=e105]: 校
+          - generic [ref=e108]: 校验官
+    - generic [ref=e110]:
+      - generic [ref=e111]: 知
+      - generic [ref=e112]:
+        - generic [ref=e113]: 林知远
+        - generic [ref=e114]: 本科大三
+      - button "切换身份或重新构建画像" [ref=e115] [cursor=pointer]
+  - generic [ref=e119]:
+    - banner [ref=e120]:
+      - navigation "面包屑" [ref=e121]:
+        - link "智学灵境" [ref=e122] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e125]: 学习画像
+      - generic [ref=e126]:
+        - button "打开全局搜索" [ref=e127] [cursor=pointer]:
+          - generic [ref=e131]: 搜索知识点 / 资源 / 智能体…
+          - generic [ref=e132]: ⌘K
+        - button "切换为浅色主题" [ref=e133] [cursor=pointer]
+        - button "查看通知" [ref=e141] [cursor=pointer]
+        - generic [ref=e146]: 编队在线
+    - main [ref=e148]:
+      - generic [ref=e910]:
+        - generic [ref=e911]:
+          - generic [ref=e912]:
+            - heading "学习画像" [level=1] [ref=e913]
+            - paragraph [ref=e914]: 6 维动态画像 · 当前版本 v2 · 更新于 2026-04-08 19:42
+          - button "随学随新" [ref=e915] [cursor=pointer]
+        - generic [ref=e921]:
+          - generic [ref=e922]:
+            - generic [ref=e923]:
+              - heading "6 维雷达图" [level=2] [ref=e925]
+              - generic [ref=e926]:
+                - generic [ref=e927]:
+                  - generic [ref=e928]: 当前版本 · v2
+                  - img [ref=e929]:
+                    - generic [ref=e945]:
+                      - generic [ref=e946]: 知识基础
+                      - generic [ref=e947]: "74"
+                    - generic [ref=e948]:
+                      - generic [ref=e949]: 认知风格
+                      - generic [ref=e950]: "76"
+                    - generic [ref=e951]:
+                      - generic [ref=e952]: 易错偏好
+                      - generic [ref=e953]: "61"
+                    - generic [ref=e954]:
+                      - generic [ref=e955]: 学习节奏
+                      - generic [ref=e956]: "78"
+                    - generic [ref=e957]:
+                      - generic [ref=e958]: 兴趣方向
+                      - generic [ref=e959]: "92"
+                    - generic [ref=e960]:
+                      - generic [ref=e961]: 目标导向
+                      - generic [ref=e962]: "85"
+                - generic [ref=e963]:
+                  - generic [ref=e964]:
+                    - generic [ref=e965]:
+                      - generic [ref=e966]: 知识基础
+                      - generic [ref=e967]: "74"
+                    - paragraph [ref=e970]: 深度学习章节测验 86 分，知识基础提升；线代补强至 71。
+                    - generic [ref=e971]:
+                      - generic [ref=e972]: DL 测验 86
+                      - generic [ref=e973]: 线代 71
+                  - generic [ref=e974]:
+                    - generic [ref=e975]:
+                      - generic [ref=e976]: 认知风格
+                      - generic [ref=e977]: "76"
+                    - paragraph [ref=e980]: 维持视觉+实践型偏好；新增对动画分镜反馈良好。
+                    - generic [ref=e981]:
+                      - generic [ref=e982]: 视觉型
+                      - generic [ref=e983]: 实践型
+                      - generic [ref=e984]: 动画偏好
+                  - generic [ref=e985]:
+                    - generic [ref=e986]:
+                      - generic [ref=e987]: 易错偏好
+                      - generic [ref=e988]: "61"
+                    - paragraph [ref=e991]: 梯度问题已纠正；当前易错点转移到 Multi-Head Attention 维度拼接。
+                    - generic [ref=e992]:
+                      - generic [ref=e993]: Multi-Head 维度
+                      - generic [ref=e994]: Padding Mask
+                  - generic [ref=e995]:
+                    - generic [ref=e996]:
+                      - generic [ref=e997]: 学习节奏
+                      - generic [ref=e998]: "78"
+                    - paragraph [ref=e1001]: 近两周日均 1.8h，单次专注提升至 55min，节奏更稳。
+                    - generic [ref=e1002]:
+                      - generic [ref=e1003]: 日均 1.8h
+                      - generic [ref=e1004]: 55min/次
+                  - generic [ref=e1005]:
+                    - generic [ref=e1006]:
+                      - generic [ref=e1007]: 兴趣方向
+                      - generic [ref=e1008]: "92"
+                    - paragraph [ref=e1011]: 明确聚焦大模型推理与 Agent 工程；主动探索 vLLM、Function Calling。
+                    - generic [ref=e1012]:
+                      - generic [ref=e1013]: vLLM
+                      - generic [ref=e1014]: Function Calling
+                      - generic [ref=e1015]: Agent 工程
+                  - generic [ref=e1016]:
+                    - generic [ref=e1017]:
+                      - generic [ref=e1018]: 目标导向
+                      - generic [ref=e1019]: "85"
+                    - paragraph [ref=e1022]: 考研目标院校锁定；工程目标转为完成一个 3-Agent 协同 Demo。
+                    - generic [ref=e1023]:
+                      - generic [ref=e1024]: 院校锁定
+                      - generic [ref=e1025]: 3-Agent Demo
+            - generic [ref=e1026]:
+              - heading "特征抽取依据" [level=2] [ref=e1027]
+              - generic [ref=e1030]:
+                - generic [ref=e1031]:
+                  - generic [ref=e1032]:
+                    - generic [ref=e1034]: 知识基础
+                    - generic [ref=e1035]: "74"
+                  - paragraph [ref=e1036]: 深度学习章节测验 86 分，知识基础提升；线代补强至 71。
+                - generic [ref=e1037]:
+                  - generic [ref=e1038]:
+                    - generic [ref=e1040]: 认知风格
+                    - generic [ref=e1041]: "76"
+                  - paragraph [ref=e1042]: 维持视觉+实践型偏好；新增对动画分镜反馈良好。
+                - generic [ref=e1043]:
+                  - generic [ref=e1044]:
+                    - generic [ref=e1046]: 易错偏好
+                    - generic [ref=e1047]: "61"
+                  - paragraph [ref=e1048]: 梯度问题已纠正；当前易错点转移到 Multi-Head Attention 维度拼接。
+                - generic [ref=e1049]:
+                  - generic [ref=e1050]:
+                    - generic [ref=e1052]: 学习节奏
+                    - generic [ref=e1053]: "78"
+                  - paragraph [ref=e1054]: 近两周日均 1.8h，单次专注提升至 55min，节奏更稳。
+                - generic [ref=e1055]:
+                  - generic [ref=e1056]:
+                    - generic [ref=e1058]: 兴趣方向
+                    - generic [ref=e1059]: "92"
+                  - paragraph [ref=e1060]: 明确聚焦大模型推理与 Agent 工程；主动探索 vLLM、Function Calling。
+                - generic [ref=e1061]:
+                  - generic [ref=e1062]:
+                    - generic [ref=e1064]: 目标导向
+                    - generic [ref=e1065]: "85"
+                  - paragraph [ref=e1066]: 考研目标院校锁定；工程目标转为完成一个 3-Agent 协同 Demo。
+          - complementary [ref=e1067]:
+            - generic [ref=e1068]:
+              - heading "画像版本时间线" [level=3] [ref=e1069]
+              - generic [ref=e1074]:
+                - generic [ref=e1077]:
+                  - generic [ref=e1078]: v2（当前）
+                  - generic [ref=e1080]: 2026-04-08 19:42
+                  - generic [ref=e1081]: 完成 CNN 章节后随学随新
+                - generic [ref=e1084]:
+                  - generic [ref=e1085]:
+                    - generic [ref=e1086]: v1
+                    - button "对比" [ref=e1087] [cursor=pointer]
+                  - generic [ref=e1093]: 2026-03-12 10:24
+                  - generic [ref=e1094]: 首次对话引导
+            - generic [ref=e1095]:
+              - heading "画像演进趋势" [level=3] [ref=e1096]
+              - generic [ref=e1100]:
+                - paragraph [ref=e1101]:
+                  - text: · 知识基础：68 → 74
+                  - generic [ref=e1102]: （+6）
+                - paragraph [ref=e1103]:
+                  - text: · 认知风格：76 → 76
+                  - generic [ref=e1104]: （0）
+                - paragraph [ref=e1105]:
+                  - text: · 易错偏好：54 → 61
+                  - generic [ref=e1106]: （+7）
+                - paragraph [ref=e1107]:
+                  - text: · 学习节奏：72 → 78
+                  - generic [ref=e1108]: （+6）
+                - paragraph [ref=e1109]:
+                  - text: · 兴趣方向：88 → 92
+                  - generic [ref=e1110]: （+4）
+                - paragraph [ref=e1111]:
+                  - text: · 目标导向：82 → 85
+                  - generic [ref=e1112]: （+3）
+  - complementary "决赛演示向导" [ref=e1113]:
+    - generic [ref=e1116]:
+      - generic [ref=e1117]:
+        - generic [ref=e1125]:
+          - generic [ref=e1126]:
+            - generic [ref=e1127]: FINAL DEMO 1/5
+            - generic [ref=e1128]: 35 秒
+          - heading "画像证据" [level=2] [ref=e1129]
+        - button "收起演示向导" [ref=e1130] [cursor=pointer]
+        - button "退出演示向导" [ref=e1136] [cursor=pointer]
+      - paragraph [ref=e1140]: 查看六维画像、版本与抽取依据
+      - button "下一步·编队生成" [ref=e1148] [cursor=pointer]

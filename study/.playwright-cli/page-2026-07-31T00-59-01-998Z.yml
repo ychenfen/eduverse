@@ -1,0 +1,154 @@
+- generic [ref=e3]:
+  - link "跳到主要内容" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - complementary "主导航" [ref=e5]:
+    - generic [ref=e11]:
+      - generic [ref=e12]: 智学灵境
+      - generic [ref=e13]: EDUVERSE
+    - navigation [ref=e14]:
+      - link "工作台" [ref=e15] [cursor=pointer]:
+        - /url: /
+      - link "决赛演示" [ref=e23] [cursor=pointer]:
+        - /url: /showcase
+      - link "学习画像" [ref=e28] [cursor=pointer]:
+        - /url: /profile
+      - link "学习计划" [ref=e34] [cursor=pointer]:
+        - /url: /plan
+      - link "资源工坊" [ref=e38] [cursor=pointer]:
+        - /url: /workshop
+      - link "学习路径" [ref=e42] [cursor=pointer]:
+        - /url: /path
+      - link "题库训练" [ref=e48] [cursor=pointer]:
+        - /url: /practice
+      - link "智能辅导" [ref=e55] [cursor=pointer]:
+        - /url: /tutor
+      - link "学习评估" [ref=e60] [cursor=pointer]:
+        - /url: /assessment
+      - link "资源中心" [ref=e65] [cursor=pointer]:
+        - /url: /library
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: 智能体编队
+        - generic [ref=e72]: 7 在线
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic "灵境 · 队长 · Captain" [ref=e75]: 灵
+          - generic [ref=e78]: 灵境
+        - generic [ref=e79]:
+          - generic "解构者 · 知识架构师 · Deconstructor" [ref=e80]: 解
+          - generic [ref=e83]: 解构者
+        - generic [ref=e84]:
+          - generic "编织者 · 内容撰写师 · Weaver" [ref=e85]: 织
+          - generic [ref=e88]: 编织者
+        - generic [ref=e89]:
+          - generic "出题官 · 评测设计师 · QuizMaster" [ref=e90]: 题
+          - generic [ref=e93]: 出题官
+        - generic [ref=e94]:
+          - generic "视觉师 · 多模态设计师 · Visualist" [ref=e95]: 视
+          - generic [ref=e98]: 视觉师
+        - generic [ref=e99]:
+          - generic "实操匠 · 代码工程师 · Coder" [ref=e100]: 码
+          - generic [ref=e103]: 实操匠
+        - generic [ref=e104]:
+          - generic "校验官 · 防幻觉守门人 · Validator" [ref=e105]: 校
+          - generic [ref=e108]: 校验官
+    - generic [ref=e110]:
+      - generic [ref=e111]: 知
+      - generic [ref=e112]:
+        - generic [ref=e113]: 林知远
+        - generic [ref=e114]: 本科大三
+      - button "切换身份或重新构建画像" [ref=e115] [cursor=pointer]
+  - generic [ref=e119]:
+    - banner [ref=e120]:
+      - navigation "面包屑" [ref=e121]:
+        - link "智学灵境" [ref=e122] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e125]: 题库训练
+      - generic [ref=e126]:
+        - button "打开全局搜索" [ref=e127] [cursor=pointer]:
+          - generic [ref=e131]: 搜索知识点 / 资源 / 智能体…
+          - generic [ref=e132]: ⌘K
+        - button "切换为浅色主题" [ref=e133] [cursor=pointer]
+        - button "查看通知" [ref=e141] [cursor=pointer]
+        - generic [ref=e146]: 编队在线
+    - main [ref=e148]:
+      - generic [ref=e1724]:
+        - generic [ref=e1725]:
+          - generic [ref=e1726]:
+            - heading "题库训练" [level=1] [ref=e1727]
+            - paragraph [ref=e1728]: 选择题型，开始练习，强化知识掌握
+          - generic [ref=e1729]:
+            - button "社区题库" [ref=e1730] [cursor=pointer]
+            - button "发布题目" [ref=e1734] [cursor=pointer]
+        - generic [ref=e1736]:
+          - generic [ref=e1737]:
+            - generic [ref=e1738]:
+              - heading "选择题型" [level=2] [ref=e1739]
+              - generic [ref=e1740]:
+                - button "单选题 15 道题" [ref=e1741] [cursor=pointer]:
+                  - generic [ref=e1746]: 单选题
+                  - generic [ref=e1747]: 15 道题
+                - button "多选题 4 道题" [ref=e1748] [cursor=pointer]:
+                  - generic [ref=e1752]: 多选题
+                  - generic [ref=e1753]: 4 道题
+                - button "判断题 5 道题" [ref=e1754] [cursor=pointer]:
+                  - generic [ref=e1759]: 判断题
+                  - generic [ref=e1760]: 5 道题
+                - button "填空题 12 道题" [ref=e1761] [cursor=pointer]:
+                  - generic [ref=e1767]: 填空题
+                  - generic [ref=e1768]: 12 道题
+                - button "代码填空 4 道题" [ref=e1769] [cursor=pointer]:
+                  - generic [ref=e1775]: 代码填空
+                  - generic [ref=e1776]: 4 道题
+            - generic [ref=e1777]:
+              - heading "题目数量" [level=2] [ref=e1778]
+              - generic [ref=e1779]:
+                - button "5 题" [ref=e1780] [cursor=pointer]
+                - button "10 题" [ref=e1781] [cursor=pointer]
+                - button "15 题" [ref=e1782] [cursor=pointer]
+                - button "20 题" [ref=e1783] [cursor=pointer]
+                - button "30 题" [ref=e1784] [cursor=pointer]
+            - generic [ref=e1785]:
+              - heading "选择章节（可选）" [level=2] [ref=e1786]
+              - generic [ref=e1787]:
+                - button "AI 绪论与发展史" [ref=e1788] [cursor=pointer]
+                - button "搜索与优化" [ref=e1794] [cursor=pointer]
+                - button "知识表示与推理" [ref=e1802] [cursor=pointer]
+                - button "机器学习基础" [ref=e1808] [cursor=pointer]
+                - button "深度学习" [ref=e1814] [cursor=pointer]
+                - button "大模型与多智能体" [ref=e1820] [cursor=pointer]
+            - generic [ref=e1826]:
+              - button "开始练习" [ref=e1827] [cursor=pointer]
+              - button "随机抽题" [ref=e1830] [cursor=pointer]
+          - generic [ref=e1837]:
+            - generic [ref=e1838]:
+              - heading "训练统计" [level=2] [ref=e1839]
+              - generic [ref=e1842]:
+                - generic [ref=e1843]:
+                  - generic [ref=e1844]: 累计做题
+                  - generic [ref=e1845]: "0"
+                - generic [ref=e1846]:
+                  - generic [ref=e1847]: 正确题数
+                  - generic [ref=e1848]: "0"
+                - generic [ref=e1849]:
+                  - generic [ref=e1850]: 正确率
+                  - generic [ref=e1851]: 0%
+                - generic [ref=e1852]:
+                  - generic [ref=e1853]: 训练天数
+                  - generic [ref=e1854]: 0 天
+            - generic [ref=e1855]:
+              - generic [ref=e1856]: 今日目标
+              - paragraph [ref=e1860]: 每天坚持做题，保持手感，掌握度稳步提升
+              - generic [ref=e1861]: 坚持就是胜利
+  - complementary "决赛演示向导" [ref=e1113]:
+    - generic [ref=e1116]:
+      - generic [ref=e1117]:
+        - generic [ref=e1125]:
+          - generic [ref=e1126]:
+            - generic [ref=e1127]: FINAL DEMO 4/5
+            - generic [ref=e1128]: 40 秒
+          - heading "专项练习" [level=2] [ref=e1862]
+        - button "收起演示向导" [ref=e1130] [cursor=pointer]
+        - button "退出演示向导" [ref=e1136] [cursor=pointer]
+      - paragraph [ref=e1140]: 完成一道练习，查看解析与记录回流
+      - button "下一步·效果闭环" [active] [ref=e1863] [cursor=pointer]

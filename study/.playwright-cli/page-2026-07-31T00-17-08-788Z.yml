@@ -1,0 +1,174 @@
+- generic [ref=f3e3]:
+  - link "跳到主要内容" [ref=f3e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f3e5]:
+    - banner [ref=f3e6]:
+      - button "打开菜单" [ref=f3e439] [cursor=pointer]
+      - navigation "面包屑" [ref=f3e9]:
+        - generic [ref=f3e10]: 学习计划
+      - generic [ref=f3e11]:
+        - button "搜索" [ref=f3e12] [cursor=pointer]
+        - button "切换为浅色主题" [ref=f3e16] [cursor=pointer]
+        - button "查看通知" [ref=f3e24] [cursor=pointer]
+    - main [ref=f3e29]:
+      - generic [ref=f3e30]:
+        - generic [ref=f3e31]:
+          - generic [ref=f3e32]:
+            - heading "学习计划" [level=1] [ref=f3e33]
+            - paragraph [ref=f3e34]: 定制专属学习路径，科学规划，高效进步
+          - button "新建计划" [ref=f3e35] [cursor=pointer]
+        - generic [ref=f3e37]:
+          - generic [ref=f3e39] [cursor=pointer]:
+            - generic [ref=f3e40]:
+              - generic [ref=f3e41]:
+                - heading "零基础入门人工智能" [level=3] [ref=f3e42]
+                - paragraph [ref=f3e43]: 零基础入门人工智能
+              - generic [ref=f3e44]: 当前计划
+            - generic [ref=f3e45]:
+              - generic [ref=f3e46]: 2026-07-31 ~ 2026-08-29
+              - generic [ref=f3e50]: 60 分钟/天
+              - generic [ref=f3e55]: 入门难度
+              - generic [ref=f3e61]: 3 个里程碑
+          - generic [ref=f3e66]:
+            - heading "当前计划里程碑" [level=2] [ref=f3e67]
+            - generic [ref=f3e71]:
+              - generic [ref=f3e72]:
+                - generic [ref=f3e73]: "1"
+                - generic [ref=f3e76]:
+                  - button [expanded] [ref=f3e77] [cursor=pointer]:
+                    - generic [ref=f3e78]:
+                      - heading "第 1 阶段：夯实基础（1-10 天）" [level=4] [ref=f3e79]
+                      - paragraph [ref=f3e80]: 截止 2026-08-09 · 4 个知识点 · 2.3 小时
+                  - generic [ref=f3e83]:
+                    - generic [ref=f3e84]:
+                      - generic [ref=f3e85]:
+                        - generic [ref=f3e86]: 第 1 天
+                        - generic [ref=f3e87]: 约 16 分钟
+                      - generic [ref=f3e93]:
+                        - generic [ref=f3e94]:
+                          - generic [ref=f3e95]: 学习概念：AI 伦理与安全
+                          - generic [ref=f3e96]: 视频学习
+                        - paragraph [ref=f3e97]: 公平性、可解释性、隐私保护、价值对齐等核心议题。
+                        - generic [ref=f3e98]:
+                          - generic [ref=f3e99]: 预计 16 分钟
+                          - button "去学习" [ref=f3e100] [cursor=pointer]
+                    - generic [ref=f3e105]:
+                      - generic [ref=f3e106]:
+                        - generic [ref=f3e107]: 第 2 天
+                        - generic [ref=f3e108]: 约 13 分钟
+                      - generic [ref=f3e115]:
+                        - generic [ref=f3e116]:
+                          - generic [ref=f3e117]: 深度阅读：AI 伦理与安全
+                          - generic [ref=f3e118]: 阅读
+                        - paragraph [ref=f3e119]: 阅读相关材料，整理笔记，理解 AI 伦理与安全 的关键要点。
+                        - generic [ref=f3e120]:
+                          - generic [ref=f3e121]: 预计 13 分钟
+                          - button "去学习" [ref=f3e122] [cursor=pointer]
+                    - generic [ref=f3e127]:
+                      - generic [ref=f3e128]:
+                        - generic [ref=f3e129]: 第 3 天
+                        - generic [ref=f3e130]: 约 8 分钟
+                      - generic [ref=f3e137]:
+                        - generic [ref=f3e138]:
+                          - generic [ref=f3e139]: 巩固测验：AI 伦理与安全
+                          - generic [ref=f3e140]: 测验
+                        - paragraph [ref=f3e141]: 完成 AI 伦理与安全 相关的练习题与测验，检验掌握情况。
+                        - generic [ref=f3e142]:
+                          - generic [ref=f3e143]: 预计 8 分钟
+                          - button "去学习" [ref=f3e144] [cursor=pointer]
+                    - generic [ref=f3e149]:
+                      - generic [ref=f3e150]:
+                        - generic [ref=f3e151]: 第 4 天
+                        - generic [ref=f3e152]: 约 14 分钟
+                      - generic [ref=f3e158]:
+                        - generic [ref=f3e159]:
+                          - generic [ref=f3e160]: 学习概念：框架与语义网络
+                          - generic [ref=f3e161]: 视频学习
+                        - paragraph [ref=f3e162]: 框架表示法、语义网络、本体论 Ontology。
+                        - generic [ref=f3e163]:
+                          - generic [ref=f3e164]: 预计 14 分钟
+                          - button "去学习" [ref=f3e165] [cursor=pointer]
+                    - generic [ref=f3e170]:
+                      - generic [ref=f3e171]:
+                        - generic [ref=f3e172]: 第 5 天
+                        - generic [ref=f3e173]: 约 11 分钟
+                      - generic [ref=f3e180]:
+                        - generic [ref=f3e181]:
+                          - generic [ref=f3e182]: 深度阅读：框架与语义网络
+                          - generic [ref=f3e183]: 阅读
+                        - paragraph [ref=f3e184]: 阅读相关材料，整理笔记，理解 框架与语义网络 的关键要点。
+                        - generic [ref=f3e185]:
+                          - generic [ref=f3e186]: 预计 11 分钟
+                          - button "去学习" [ref=f3e187] [cursor=pointer]
+                    - generic [ref=f3e192]:
+                      - generic [ref=f3e193]:
+                        - generic [ref=f3e194]: 第 6 天
+                        - generic [ref=f3e195]: 约 8 分钟
+                      - generic [ref=f3e202]:
+                        - generic [ref=f3e203]:
+                          - generic [ref=f3e204]: 巩固测验：框架与语义网络
+                          - generic [ref=f3e205]: 测验
+                        - paragraph [ref=f3e206]: 完成 框架与语义网络 相关的练习题与测验，检验掌握情况。
+                        - generic [ref=f3e207]:
+                          - generic [ref=f3e208]: 预计 8 分钟
+                          - button "去学习" [ref=f3e209] [cursor=pointer]
+                    - generic [ref=f3e214]:
+                      - generic [ref=f3e215]:
+                        - generic [ref=f3e216]: 第 7 天
+                        - generic [ref=f3e217]: 约 18 分钟
+                      - generic [ref=f3e223]:
+                        - generic [ref=f3e224]:
+                          - generic [ref=f3e225]: 算法原理：局部搜索与优化
+                          - generic [ref=f3e226]: 视频学习
+                        - paragraph [ref=f3e227]: hill-climbing、模拟退火、遗传算法的原理与对比。
+                        - generic [ref=f3e228]:
+                          - generic [ref=f3e229]: 预计 18 分钟
+                          - button "去学习" [ref=f3e230] [cursor=pointer]
+                    - generic [ref=f3e235]:
+                      - generic [ref=f3e236]:
+                        - generic [ref=f3e237]: 第 8 天
+                        - generic [ref=f3e238]: 约 18 分钟
+                      - generic [ref=f3e245]:
+                        - generic [ref=f3e246]:
+                          - generic [ref=f3e247]: 算法实现：局部搜索与优化
+                          - generic [ref=f3e248]: 代码实践
+                        - paragraph [ref=f3e249]: 动手实现或复现 局部搜索与优化，加深对细节的理解。
+                        - generic [ref=f3e250]:
+                          - generic [ref=f3e251]: 预计 18 分钟
+                          - button "去学习" [ref=f3e252] [cursor=pointer]
+                    - generic [ref=f3e257]:
+                      - generic [ref=f3e258]:
+                        - generic [ref=f3e259]: 第 9 天
+                        - generic [ref=f3e260]: 约 9 分钟
+                      - generic [ref=f3e267]:
+                        - generic [ref=f3e268]:
+                          - generic [ref=f3e269]: 巩固测验：局部搜索与优化
+                          - generic [ref=f3e270]: 测验
+                        - paragraph [ref=f3e271]: 完成 局部搜索与优化 相关的练习题与测验，检验掌握情况。
+                        - generic [ref=f3e272]:
+                          - generic [ref=f3e273]: 预计 9 分钟
+                          - button "去学习" [ref=f3e274] [cursor=pointer]
+                    - generic [ref=f3e279]:
+                      - generic [ref=f3e280]:
+                        - generic [ref=f3e281]: 第 10 天
+                        - generic [ref=f3e282]: 约 20 分钟
+                      - generic [ref=f3e288]:
+                        - generic [ref=f3e289]:
+                          - generic [ref=f3e290]: 学习概念：谓词逻辑与推理
+                          - generic [ref=f3e291]: 视频学习
+                        - paragraph [ref=f3e292]: 一阶逻辑、归结原理、前向/后向链推理。
+                        - generic [ref=f3e293]:
+                          - generic [ref=f3e294]: 预计 20 分钟
+                          - button "去学习" [ref=f3e295] [cursor=pointer]
+              - generic [ref=f3e300]:
+                - generic [ref=f3e301]: "2"
+                - button [ref=f3e305] [cursor=pointer]:
+                  - generic [ref=f3e306]:
+                    - heading "第 2 阶段：深入核心（11-20 天）" [level=4] [ref=f3e307]
+                    - paragraph [ref=f3e308]: 截止 2026-08-19 · 4 个知识点 · 2.5 小时
+              - generic [ref=f3e311]:
+                - generic [ref=f3e312]: "3"
+                - button [ref=f3e315] [cursor=pointer]:
+                  - generic [ref=f3e316]:
+                    - heading "第 3 阶段：综合实战（21-30 天）" [level=4] [ref=f3e317]
+                    - paragraph [ref=f3e318]: 截止 2026-08-29 · 4 个知识点 · 2.9 小时

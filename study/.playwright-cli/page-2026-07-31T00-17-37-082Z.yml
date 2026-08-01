@@ -1,0 +1,19 @@
+- generic [ref=f4e3]:
+  - link "跳到主要内容" [ref=f4e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f4e5]:
+    - banner [ref=f4e6]:
+      - button "打开菜单" [ref=f4e7] [cursor=pointer]
+      - navigation "面包屑" [ref=f4e9]:
+        - generic [ref=f4e10]: 智学灵境
+      - generic [ref=f4e11]:
+        - button "搜索" [ref=f4e12] [cursor=pointer]
+        - button "切换为浅色主题" [ref=f4e16] [cursor=pointer]
+        - button "查看通知" [ref=f4e24] [cursor=pointer]
+    - main [ref=f4e29]:
+      - generic [ref=f4e31]:
+        - generic [ref=f4e36]: ROUTE 404
+        - heading "这条学习路径尚未生成" [level=1] [ref=f4e37]
+        - paragraph [ref=f4e38]: 当前地址没有对应页面，返回工作台后可继续使用学习计划、资源工坊和智能辅导。
+        - link "返回工作台" [ref=f4e39] [cursor=pointer]:
+          - /url: /

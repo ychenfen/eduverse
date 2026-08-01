@@ -1,0 +1,232 @@
+- generic [ref=f1e3]:
+  - link "跳到主要内容" [ref=f1e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f1e5]:
+    - banner [ref=f1e6]:
+      - button "打开菜单" [ref=f1e7] [cursor=pointer]
+      - navigation "面包屑" [ref=f1e9]:
+        - generic [ref=f1e10]: 学习路径
+      - generic [ref=f1e11]:
+        - button "搜索" [ref=f1e12] [cursor=pointer]
+        - button "切换为浅色主题" [ref=f1e16] [cursor=pointer]
+        - button "查看通知" [ref=f1e24] [cursor=pointer]
+    - main [ref=f1e29]:
+      - generic [ref=f1e30]:
+        - generic [ref=f1e31]:
+          - generic [ref=f1e32]:
+            - heading "个性化学习路径" [level=1] [ref=f1e33]
+            - paragraph [ref=f1e34]: 目标：大模型方向考研 + 工程 Demo 双目标 · 与学习记录实时同步
+          - button "动态调优路径" [ref=f1e35] [cursor=pointer]
+        - generic [ref=f1e38]:
+          - generic [ref=f1e39]:
+            - generic [ref=f1e40]: 已完成
+            - generic [ref=f1e45]: "9"
+          - generic [ref=f1e46]:
+            - generic [ref=f1e47]: 进行中
+            - generic [ref=f1e51]: "3"
+          - generic [ref=f1e52]:
+            - generic [ref=f1e53]: 推荐加速
+            - generic [ref=f1e57]: "1"
+          - generic [ref=f1e58]:
+            - generic [ref=f1e59]: 待学习
+            - generic [ref=f1e63]: "8"
+          - generic [ref=f1e64]:
+            - generic [ref=f1e65]: 未解锁
+            - generic [ref=f1e70]: "3"
+        - generic [ref=f1e71]:
+          - generic [ref=f1e72]:
+            - generic [ref=f1e73]:
+              - generic [ref=f1e74]:
+                - heading "路径图谱" [level=2] [ref=f1e75]
+                - generic [ref=f1e76]: 可拖拽平移 · 滚轮缩放
+              - generic [ref=f1e82]:
+                - button "缩小" [ref=f1e83] [cursor=pointer]
+                - generic [ref=f1e87]: 53%
+                - button "放大" [ref=f1e88] [cursor=pointer]
+                - button "重置视图" [ref=f1e92] [cursor=pointer]
+            - img [ref=f1e98]:
+              - generic [ref=f1e99]: 第1章 · AI 绪论与发展史
+              - generic [ref=f1e102]: 第2章 · 搜索与优化
+              - generic [ref=f1e105]: 第3章 · 知识表示与推理
+              - generic [ref=f1e108]: 第4章 · 机器学习基础
+              - generic [ref=f1e111]: 第5章 · 深度学习
+              - generic [ref=f1e114]: 第6章 · 大模型与多智能体
+              - button "人工智能的定义与范畴，已完成" [ref=f1e122] [cursor=pointer]:
+                - generic [ref=f1e128]: 人工智能的定义与范畴
+                - generic [ref=f1e129]: 难度★
+              - button "AI 发展三次浪潮，已完成" [ref=f1e130] [cursor=pointer]:
+                - generic [ref=f1e136]: AI 发展三次浪潮
+                - generic [ref=f1e137]: 难度★
+              - button "三大研究学派，已完成" [ref=f1e138] [cursor=pointer]:
+                - generic [ref=f1e144]: 三大研究学派
+                - generic [ref=f1e145]: 难度★★
+              - button "AI 伦理与安全，推荐加速" [ref=f1e146] [cursor=pointer]:
+                - generic [ref=f1e152]: AI 伦理与安全
+                - generic [ref=f1e153]: 难度★★
+              - button "无信息搜索策略，已完成" [ref=f1e154] [cursor=pointer]:
+                - generic [ref=f1e160]: 无信息搜索策略
+                - generic [ref=f1e161]: 难度★★
+              - button "启发式搜索 A*，已完成" [ref=f1e162] [cursor=pointer]:
+                - generic [ref=f1e168]: 启发式搜索 A*
+                - generic [ref=f1e169]: 难度★★★
+              - button "局部搜索与优化，待学习" [ref=f1e170] [cursor=pointer]:
+                - generic [ref=f1e175]: 局部搜索与优化
+                - generic [ref=f1e176]: 难度★★★
+              - button "对抗搜索与博弈，待学习" [ref=f1e177] [cursor=pointer]:
+                - generic [ref=f1e182]: 对抗搜索与博弈
+                - generic [ref=f1e183]: 难度★★★★
+              - button "谓词逻辑与推理，待学习" [ref=f1e184] [cursor=pointer]:
+                - generic [ref=f1e189]: 谓词逻辑与推理
+                - generic [ref=f1e190]: 难度★★★
+              - button "框架与语义网络，未解锁" [ref=f1e191] [cursor=pointer]:
+                - generic [ref=f1e197]: 框架与语义网络
+                - generic [ref=f1e198]: 难度★★
+              - button "不确定知识与概率推理，未解锁" [ref=f1e199] [cursor=pointer]:
+                - generic [ref=f1e205]: 不确定知识与概率推理
+                - generic [ref=f1e206]: 难度★★★★
+              - button "知识图谱构建与应用，未解锁" [ref=f1e207] [cursor=pointer]:
+                - generic [ref=f1e213]: 知识图谱构建与应用
+                - generic [ref=f1e214]: 难度★★★
+              - button "机器学习范式与分类，已完成" [ref=f1e215] [cursor=pointer]:
+                - generic [ref=f1e221]: 机器学习范式与分类
+                - generic [ref=f1e222]: 难度★★
+              - button "线性模型与正则化，已完成" [ref=f1e223] [cursor=pointer]:
+                - generic [ref=f1e229]: 线性模型与正则化
+                - generic [ref=f1e230]: 难度★★★
+              - button "决策树与集成学习，已完成" [ref=f1e231] [cursor=pointer]:
+                - generic [ref=f1e237]: 决策树与集成学习
+                - generic [ref=f1e238]: 难度★★★
+              - button "模型评估与超参调优，待学习" [ref=f1e239] [cursor=pointer]:
+                - generic [ref=f1e244]: 模型评估与超参调优
+                - generic [ref=f1e245]: 难度★★★
+              - button "神经网络与反向传播，进行中" [ref=f1e246] [cursor=pointer]:
+                - generic [ref=f1e252]: 神经网络与反向传播
+                - generic [ref=f1e253]: 难度★★★★
+              - button "卷积神经网络 CNN，已完成" [ref=f1e254] [cursor=pointer]:
+                - generic [ref=f1e260]: 卷积神经网络 CNN
+                - generic [ref=f1e261]: 难度★★★★
+              - button "循环网络与序列建模，进行中" [ref=f1e262] [cursor=pointer]:
+                - generic [ref=f1e268]: 循环网络与序列建模
+                - generic [ref=f1e269]: 难度★★★★
+              - button "Transformer 与注意力，进行中" [ref=f1e270] [cursor=pointer]:
+                - generic [ref=f1e276]: Transform…
+                - generic [ref=f1e277]: 难度★★★★★
+              - button "大模型预训练范式，待学习" [ref=f1e278] [cursor=pointer]:
+                - generic [ref=f1e283]: 大模型预训练范式
+                - generic [ref=f1e284]: 难度★★★★★
+              - button "检索增强生成 RAG，待学习" [ref=f1e285] [cursor=pointer]:
+                - generic [ref=f1e290]: 检索增强生成 RAG
+                - generic [ref=f1e291]: 难度★★★★
+              - button "智能体 Agent 架构，待学习" [ref=f1e292] [cursor=pointer]:
+                - generic [ref=f1e297]: 智能体 Agent…
+                - generic [ref=f1e298]: 难度★★★★★
+              - button "多智能体协同框架，待学习" [ref=f1e299] [cursor=pointer]:
+                - generic [ref=f1e304]: 多智能体协同框架
+                - generic [ref=f1e305]: 难度★★★★★
+          - complementary [ref=f1e306]:
+            - generic [ref=f1e307]:
+              - heading "章节导航" [level=3] [ref=f1e308]
+              - generic [ref=f1e309]:
+                - generic [ref=f1e310]:
+                  - button "第1章 · AI 绪论与发展史 3/4" [ref=f1e311] [cursor=pointer]:
+                    - generic [ref=f1e312]: 第1章 · AI 绪论与发展史
+                    - generic [ref=f1e316]: 3/4
+                  - generic [ref=f1e322]:
+                    - button "AI 伦理与安全 ★★" [ref=f1e323] [cursor=pointer]:
+                      - generic [ref=f1e326]: AI 伦理与安全
+                      - generic [ref=f1e327]: ★★
+                    - button "AI 发展三次浪潮 ★" [ref=f1e328] [cursor=pointer]:
+                      - generic [ref=f1e332]: AI 发展三次浪潮
+                      - generic [ref=f1e333]: ★
+                    - button "人工智能的定义与范畴 ★" [ref=f1e334] [cursor=pointer]:
+                      - generic [ref=f1e338]: 人工智能的定义与范畴
+                      - generic [ref=f1e339]: ★
+                    - button "三大研究学派 ★★" [ref=f1e340] [cursor=pointer]:
+                      - generic [ref=f1e344]: 三大研究学派
+                      - generic [ref=f1e345]: ★★
+                - generic [ref=f1e346]:
+                  - button "第2章 · 搜索与优化 2/4" [ref=f1e347] [cursor=pointer]:
+                    - generic [ref=f1e348]: 第2章 · 搜索与优化
+                    - generic [ref=f1e352]: 2/4
+                  - generic [ref=f1e357]:
+                    - button "对抗搜索与博弈 ★★★★" [ref=f1e358] [cursor=pointer]:
+                      - generic [ref=f1e361]: 对抗搜索与博弈
+                      - generic [ref=f1e362]: ★★★★
+                    - button "启发式搜索 A* ★★★" [ref=f1e363] [cursor=pointer]:
+                      - generic [ref=f1e367]: 启发式搜索 A*
+                      - generic [ref=f1e368]: ★★★
+                    - button "局部搜索与优化 ★★★" [ref=f1e369] [cursor=pointer]:
+                      - generic [ref=f1e372]: 局部搜索与优化
+                      - generic [ref=f1e373]: ★★★
+                    - button "无信息搜索策略 ★★" [ref=f1e374] [cursor=pointer]:
+                      - generic [ref=f1e378]: 无信息搜索策略
+                      - generic [ref=f1e379]: ★★
+                - generic [ref=f1e380]:
+                  - button "第3章 · 知识表示与推理 0/4" [ref=f1e381] [cursor=pointer]:
+                    - generic [ref=f1e382]: 第3章 · 知识表示与推理
+                    - generic [ref=f1e386]: 0/4
+                  - generic [ref=f1e390]:
+                    - button "框架与语义网络 ★★" [ref=f1e391] [cursor=pointer]:
+                      - generic [ref=f1e395]: 框架与语义网络
+                      - generic [ref=f1e396]: ★★
+                    - button "知识图谱构建与应用 ★★★" [ref=f1e397] [cursor=pointer]:
+                      - generic [ref=f1e401]: 知识图谱构建与应用
+                      - generic [ref=f1e402]: ★★★
+                    - button "谓词逻辑与推理 ★★★" [ref=f1e403] [cursor=pointer]:
+                      - generic [ref=f1e406]: 谓词逻辑与推理
+                      - generic [ref=f1e407]: ★★★
+                    - button "不确定知识与概率推理 ★★★★" [ref=f1e408] [cursor=pointer]:
+                      - generic [ref=f1e412]: 不确定知识与概率推理
+                      - generic [ref=f1e413]: ★★★★
+                - generic [ref=f1e414]:
+                  - button "第4章 · 机器学习基础 3/4" [ref=f1e415] [cursor=pointer]:
+                    - generic [ref=f1e416]: 第4章 · 机器学习基础
+                    - generic [ref=f1e420]: 3/4
+                  - generic [ref=f1e425]:
+                    - button "模型评估与超参调优 ★★★" [ref=f1e426] [cursor=pointer]:
+                      - generic [ref=f1e429]: 模型评估与超参调优
+                      - generic [ref=f1e430]: ★★★
+                    - button "线性模型与正则化 ★★★" [ref=f1e431] [cursor=pointer]:
+                      - generic [ref=f1e435]: 线性模型与正则化
+                      - generic [ref=f1e436]: ★★★
+                    - button "机器学习范式与分类 ★★" [ref=f1e437] [cursor=pointer]:
+                      - generic [ref=f1e441]: 机器学习范式与分类
+                      - generic [ref=f1e442]: ★★
+                    - button "决策树与集成学习 ★★★" [ref=f1e443] [cursor=pointer]:
+                      - generic [ref=f1e447]: 决策树与集成学习
+                      - generic [ref=f1e448]: ★★★
+                - generic [ref=f1e449]:
+                  - button "第5章 · 深度学习 1/4" [ref=f1e450] [cursor=pointer]:
+                    - generic [ref=f1e451]: 第5章 · 深度学习
+                    - generic [ref=f1e455]: 1/4
+                  - generic [ref=f1e460]:
+                    - button "卷积神经网络 CNN ★★★★" [ref=f1e461] [cursor=pointer]:
+                      - generic [ref=f1e465]: 卷积神经网络 CNN
+                      - generic [ref=f1e466]: ★★★★
+                    - button "神经网络与反向传播 ★★★★" [ref=f1e467] [cursor=pointer]:
+                      - generic [ref=f1e470]: 神经网络与反向传播
+                      - generic [ref=f1e471]: ★★★★
+                    - button "循环网络与序列建模 ★★★★" [ref=f1e472] [cursor=pointer]:
+                      - generic [ref=f1e475]: 循环网络与序列建模
+                      - generic [ref=f1e476]: ★★★★
+                    - button "Transformer 与注意力 ★★★★★" [ref=f1e477] [cursor=pointer]:
+                      - generic [ref=f1e480]: Transformer 与注意力
+                      - generic [ref=f1e481]: ★★★★★
+                - generic [ref=f1e482]:
+                  - button "第6章 · 大模型与多智能体 0/4" [ref=f1e483] [cursor=pointer]:
+                    - generic [ref=f1e484]: 第6章 · 大模型与多智能体
+                    - generic [ref=f1e488]: 0/4
+                  - generic [ref=f1e492]:
+                    - button "智能体 Agent 架构 ★★★★★" [ref=f1e493] [cursor=pointer]:
+                      - generic [ref=f1e496]: 智能体 Agent 架构
+                      - generic [ref=f1e497]: ★★★★★
+                    - button "多智能体协同框架 ★★★★★" [ref=f1e498] [cursor=pointer]:
+                      - generic [ref=f1e501]: 多智能体协同框架
+                      - generic [ref=f1e502]: ★★★★★
+                    - button "大模型预训练范式 ★★★★★" [ref=f1e503] [cursor=pointer]:
+                      - generic [ref=f1e506]: 大模型预训练范式
+                      - generic [ref=f1e507]: ★★★★★
+                    - button "检索增强生成 RAG ★★★★" [ref=f1e508] [cursor=pointer]:
+                      - generic [ref=f1e511]: 检索增强生成 RAG
+                      - generic [ref=f1e512]: ★★★★
+              - generic [ref=f1e513]: 点击知识点查看详情与关联资源

@@ -1,0 +1,222 @@
+- generic [ref=f5e3]:
+  - link "跳到主要内容" [ref=f5e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f5e5]:
+    - banner [ref=f5e6]:
+      - button "打开菜单" [ref=f5e539] [cursor=pointer]
+      - navigation "面包屑" [ref=f5e9]:
+        - generic [ref=f5e10]: 学习计划
+      - generic [ref=f5e11]:
+        - button "搜索" [ref=f5e12] [cursor=pointer]
+        - button "切换为深色主题" [ref=f5e16] [cursor=pointer]
+        - button "查看通知" [ref=f5e20] [cursor=pointer]
+    - dialog "全局搜索" [ref=f5e1562]:
+      - generic [ref=f5e1563]:
+        - generic [ref=f5e1564]:
+          - textbox "搜索内容" [active] [ref=f5e1568]:
+            - /placeholder: 搜索页面、知识点、资源或智能体…
+          - button "关闭搜索" [ref=f5e1569] [cursor=pointer]: ESC
+        - generic [ref=f5e1570]:
+          - generic [ref=f5e1571]: 快速导航
+          - button "工作台 页面 学习概览与快捷入口" [ref=f5e1572] [cursor=pointer]:
+            - generic [ref=f5e1576]:
+              - generic [ref=f5e1577]:
+                - generic [ref=f5e1578]: 工作台
+                - generic [ref=f5e1579]: 页面
+              - generic [ref=f5e1580]: 学习概览与快捷入口
+          - button "学习画像 页面 查看与更新六维画像" [ref=f5e1583] [cursor=pointer]:
+            - generic [ref=f5e1587]:
+              - generic [ref=f5e1588]:
+                - generic [ref=f5e1589]: 学习画像
+                - generic [ref=f5e1590]: 页面
+              - generic [ref=f5e1591]: 查看与更新六维画像
+          - button "学习计划 页面 制定并跟踪阶段目标" [ref=f5e1594] [cursor=pointer]:
+            - generic [ref=f5e1598]:
+              - generic [ref=f5e1599]:
+                - generic [ref=f5e1600]: 学习计划
+                - generic [ref=f5e1601]: 页面
+              - generic [ref=f5e1602]: 制定并跟踪阶段目标
+          - button "资源工坊 页面 生成六类多模态资源" [ref=f5e1605] [cursor=pointer]:
+            - generic [ref=f5e1609]:
+              - generic [ref=f5e1610]:
+                - generic [ref=f5e1611]: 资源工坊
+                - generic [ref=f5e1612]: 页面
+              - generic [ref=f5e1613]: 生成六类多模态资源
+          - button "学习路径 页面 探索个性化知识图谱" [ref=f5e1616] [cursor=pointer]:
+            - generic [ref=f5e1620]:
+              - generic [ref=f5e1621]:
+                - generic [ref=f5e1622]: 学习路径
+                - generic [ref=f5e1623]: 页面
+              - generic [ref=f5e1624]: 探索个性化知识图谱
+          - button "题库训练 页面 专项练习与社区共创" [ref=f5e1627] [cursor=pointer]:
+            - generic [ref=f5e1631]:
+              - generic [ref=f5e1632]:
+                - generic [ref=f5e1633]: 题库训练
+                - generic [ref=f5e1634]: 页面
+              - generic [ref=f5e1635]: 专项练习与社区共创
+        - generic [ref=f5e1638]:
+          - generic [ref=f5e1639]: ↵ 打开首项
+          - generic [ref=f5e1640]: ESC 关闭
+          - generic [ref=f5e1641]: 覆盖 24 个知识点 · 144 份资源
+    - main [ref=f5e25]:
+      - generic [ref=f5e1270]:
+        - generic [ref=f5e1271]:
+          - generic [ref=f5e1272]:
+            - heading "学习计划" [level=1] [ref=f5e1273]
+            - paragraph [ref=f5e1274]: 定制专属学习路径，科学规划，高效进步
+          - button "新建计划" [ref=f5e1275] [cursor=pointer]
+        - generic [ref=f5e1277]:
+          - generic [ref=f5e1279] [cursor=pointer]:
+            - generic [ref=f5e1280]:
+              - generic [ref=f5e1281]:
+                - heading "零基础入门人工智能" [level=3] [ref=f5e1282]
+                - paragraph [ref=f5e1283]: 零基础入门人工智能
+              - generic [ref=f5e1284]: 当前计划
+            - generic [ref=f5e1285]:
+              - generic [ref=f5e1286]: 2026-07-30 ~ 2026-08-28
+              - generic [ref=f5e1290]: 60 分钟/天
+              - generic [ref=f5e1295]: 入门难度
+              - generic [ref=f5e1301]: 3 个里程碑
+          - generic [ref=f5e1306]:
+            - heading "当前计划里程碑" [level=2] [ref=f5e1307]
+            - generic [ref=f5e1311]:
+              - generic [ref=f5e1312]:
+                - generic [ref=f5e1313]: "1"
+                - generic [ref=f5e1316]:
+                  - button [expanded] [ref=f5e1317] [cursor=pointer]:
+                    - generic [ref=f5e1318]:
+                      - heading "第 1 阶段：夯实基础（1-10 天）" [level=4] [ref=f5e1319]
+                      - paragraph [ref=f5e1320]: 截止 2026-08-08 · 4 个知识点 · 2.3 小时
+                  - generic [ref=f5e1324]:
+                    - generic [ref=f5e1325]:
+                      - generic [ref=f5e1326]:
+                        - generic [ref=f5e1327]: 第 1 天
+                        - generic [ref=f5e1328]: 约 16 分钟
+                      - generic [ref=f5e1334]:
+                        - generic [ref=f5e1335]:
+                          - generic [ref=f5e1336]: 学习概念：AI 伦理与安全
+                          - generic [ref=f5e1337]: 视频学习
+                        - paragraph [ref=f5e1338]: 公平性、可解释性、隐私保护、价值对齐等核心议题。
+                        - generic [ref=f5e1339]:
+                          - generic [ref=f5e1340]: 预计 16 分钟
+                          - button "去学习" [ref=f5e1341] [cursor=pointer]
+                    - generic [ref=f5e1346]:
+                      - generic [ref=f5e1347]:
+                        - generic [ref=f5e1348]: 第 2 天
+                        - generic [ref=f5e1349]: 约 13 分钟
+                      - generic [ref=f5e1356]:
+                        - generic [ref=f5e1357]:
+                          - generic [ref=f5e1358]: 深度阅读：AI 伦理与安全
+                          - generic [ref=f5e1359]: 阅读
+                        - paragraph [ref=f5e1360]: 阅读相关材料，整理笔记，理解 AI 伦理与安全 的关键要点。
+                        - generic [ref=f5e1361]:
+                          - generic [ref=f5e1362]: 预计 13 分钟
+                          - button "去学习" [ref=f5e1363] [cursor=pointer]
+                    - generic [ref=f5e1368]:
+                      - generic [ref=f5e1369]:
+                        - generic [ref=f5e1370]: 第 3 天
+                        - generic [ref=f5e1371]: 约 8 分钟
+                      - generic [ref=f5e1378]:
+                        - generic [ref=f5e1379]:
+                          - generic [ref=f5e1380]: 巩固测验：AI 伦理与安全
+                          - generic [ref=f5e1381]: 测验
+                        - paragraph [ref=f5e1382]: 完成 AI 伦理与安全 相关的练习题与测验，检验掌握情况。
+                        - generic [ref=f5e1383]:
+                          - generic [ref=f5e1384]: 预计 8 分钟
+                          - button "去学习" [ref=f5e1385] [cursor=pointer]
+                    - generic [ref=f5e1390]:
+                      - generic [ref=f5e1391]:
+                        - generic [ref=f5e1392]: 第 4 天
+                        - generic [ref=f5e1393]: 约 14 分钟
+                      - generic [ref=f5e1399]:
+                        - generic [ref=f5e1400]:
+                          - generic [ref=f5e1401]: 学习概念：框架与语义网络
+                          - generic [ref=f5e1402]: 视频学习
+                        - paragraph [ref=f5e1403]: 框架表示法、语义网络、本体论 Ontology。
+                        - generic [ref=f5e1404]:
+                          - generic [ref=f5e1405]: 预计 14 分钟
+                          - button "去学习" [ref=f5e1406] [cursor=pointer]
+                    - generic [ref=f5e1411]:
+                      - generic [ref=f5e1412]:
+                        - generic [ref=f5e1413]: 第 5 天
+                        - generic [ref=f5e1414]: 约 11 分钟
+                      - generic [ref=f5e1421]:
+                        - generic [ref=f5e1422]:
+                          - generic [ref=f5e1423]: 深度阅读：框架与语义网络
+                          - generic [ref=f5e1424]: 阅读
+                        - paragraph [ref=f5e1425]: 阅读相关材料，整理笔记，理解 框架与语义网络 的关键要点。
+                        - generic [ref=f5e1426]:
+                          - generic [ref=f5e1427]: 预计 11 分钟
+                          - button "去学习" [ref=f5e1428] [cursor=pointer]
+                    - generic [ref=f5e1433]:
+                      - generic [ref=f5e1434]:
+                        - generic [ref=f5e1435]: 第 6 天
+                        - generic [ref=f5e1436]: 约 8 分钟
+                      - generic [ref=f5e1443]:
+                        - generic [ref=f5e1444]:
+                          - generic [ref=f5e1445]: 巩固测验：框架与语义网络
+                          - generic [ref=f5e1446]: 测验
+                        - paragraph [ref=f5e1447]: 完成 框架与语义网络 相关的练习题与测验，检验掌握情况。
+                        - generic [ref=f5e1448]:
+                          - generic [ref=f5e1449]: 预计 8 分钟
+                          - button "去学习" [ref=f5e1450] [cursor=pointer]
+                    - generic [ref=f5e1455]:
+                      - generic [ref=f5e1456]:
+                        - generic [ref=f5e1457]: 第 7 天
+                        - generic [ref=f5e1458]: 约 18 分钟
+                      - generic [ref=f5e1464]:
+                        - generic [ref=f5e1465]:
+                          - generic [ref=f5e1466]: 算法原理：局部搜索与优化
+                          - generic [ref=f5e1467]: 视频学习
+                        - paragraph [ref=f5e1468]: hill-climbing、模拟退火、遗传算法的原理与对比。
+                        - generic [ref=f5e1469]:
+                          - generic [ref=f5e1470]: 预计 18 分钟
+                          - button "去学习" [ref=f5e1471] [cursor=pointer]
+                    - generic [ref=f5e1476]:
+                      - generic [ref=f5e1477]:
+                        - generic [ref=f5e1478]: 第 8 天
+                        - generic [ref=f5e1479]: 约 18 分钟
+                      - generic [ref=f5e1486]:
+                        - generic [ref=f5e1487]:
+                          - generic [ref=f5e1488]: 算法实现：局部搜索与优化
+                          - generic [ref=f5e1489]: 代码实践
+                        - paragraph [ref=f5e1490]: 动手实现或复现 局部搜索与优化，加深对细节的理解。
+                        - generic [ref=f5e1491]:
+                          - generic [ref=f5e1492]: 预计 18 分钟
+                          - button "去学习" [ref=f5e1493] [cursor=pointer]
+                    - generic [ref=f5e1498]:
+                      - generic [ref=f5e1499]:
+                        - generic [ref=f5e1500]: 第 9 天
+                        - generic [ref=f5e1501]: 约 9 分钟
+                      - generic [ref=f5e1508]:
+                        - generic [ref=f5e1509]:
+                          - generic [ref=f5e1510]: 巩固测验：局部搜索与优化
+                          - generic [ref=f5e1511]: 测验
+                        - paragraph [ref=f5e1512]: 完成 局部搜索与优化 相关的练习题与测验，检验掌握情况。
+                        - generic [ref=f5e1513]:
+                          - generic [ref=f5e1514]: 预计 9 分钟
+                          - button "去学习" [ref=f5e1515] [cursor=pointer]
+                    - generic [ref=f5e1520]:
+                      - generic [ref=f5e1521]:
+                        - generic [ref=f5e1522]: 第 10 天
+                        - generic [ref=f5e1523]: 约 20 分钟
+                      - generic [ref=f5e1529]:
+                        - generic [ref=f5e1530]:
+                          - generic [ref=f5e1531]: 学习概念：谓词逻辑与推理
+                          - generic [ref=f5e1532]: 视频学习
+                        - paragraph [ref=f5e1533]: 一阶逻辑、归结原理、前向/后向链推理。
+                        - generic [ref=f5e1534]:
+                          - generic [ref=f5e1535]: 预计 20 分钟
+                          - button "去学习" [ref=f5e1536] [cursor=pointer]
+              - generic [ref=f5e1541]:
+                - generic [ref=f5e1542]: "2"
+                - button [ref=f5e1546] [cursor=pointer]:
+                  - generic [ref=f5e1547]:
+                    - heading "第 2 阶段：深入核心（11-20 天）" [level=4] [ref=f5e1548]
+                    - paragraph [ref=f5e1549]: 截止 2026-08-18 · 4 个知识点 · 2.5 小时
+              - generic [ref=f5e1552]:
+                - generic [ref=f5e1553]: "3"
+                - button [ref=f5e1556] [cursor=pointer]:
+                  - generic [ref=f5e1557]:
+                    - heading "第 3 阶段：综合实战（21-30 天）" [level=4] [ref=f5e1558]
+                    - paragraph [ref=f5e1559]: 截止 2026-08-28 · 4 个知识点 · 2.9 小时

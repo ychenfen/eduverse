@@ -1,0 +1,126 @@
+- generic [ref=f1e11]:
+  - link "跳到主要内容" [ref=f1e12] [cursor=pointer]:
+    - /url: "#main-content"
+  - complementary "主导航" [ref=f1e13]:
+    - generic [ref=f1e19]:
+      - generic [ref=f1e20]: 智学灵境
+      - generic [ref=f1e21]: EDUVERSE
+    - navigation [ref=f1e22]:
+      - link "工作台" [ref=f1e23] [cursor=pointer]:
+        - /url: /
+      - link "决赛演示" [ref=f1e30] [cursor=pointer]:
+        - /url: /showcase
+      - link "学习画像" [ref=f1e35] [cursor=pointer]:
+        - /url: /profile
+      - link "学习计划" [ref=f1e41] [cursor=pointer]:
+        - /url: /plan
+      - link "资源工坊" [ref=f1e46] [cursor=pointer]:
+        - /url: /workshop
+      - link "学习路径" [ref=f1e50] [cursor=pointer]:
+        - /url: /path
+      - link "题库训练" [ref=f1e56] [cursor=pointer]:
+        - /url: /practice
+      - link "智能辅导" [ref=f1e63] [cursor=pointer]:
+        - /url: /tutor
+      - link "学习评估" [ref=f1e68] [cursor=pointer]:
+        - /url: /assessment
+      - link "资源中心" [ref=f1e73] [cursor=pointer]:
+        - /url: /library
+    - generic [ref=f1e77]:
+      - generic [ref=f1e78]:
+        - generic [ref=f1e79]: 智能体编队
+        - generic [ref=f1e80]: 7 在线
+      - generic [ref=f1e81]:
+        - generic [ref=f1e82]:
+          - generic "灵境 · 队长 · Captain" [ref=f1e83]: 灵
+          - generic [ref=f1e86]: 灵境
+        - generic [ref=f1e87]:
+          - generic "解构者 · 知识架构师 · Deconstructor" [ref=f1e88]: 解
+          - generic [ref=f1e91]: 解构者
+        - generic [ref=f1e92]:
+          - generic "编织者 · 内容撰写师 · Weaver" [ref=f1e93]: 织
+          - generic [ref=f1e96]: 编织者
+        - generic [ref=f1e97]:
+          - generic "出题官 · 评测设计师 · QuizMaster" [ref=f1e98]: 题
+          - generic [ref=f1e101]: 出题官
+        - generic [ref=f1e102]:
+          - generic "视觉师 · 多模态设计师 · Visualist" [ref=f1e103]: 视
+          - generic [ref=f1e106]: 视觉师
+        - generic [ref=f1e107]:
+          - generic "实操匠 · 代码工程师 · Coder" [ref=f1e108]: 码
+          - generic [ref=f1e111]: 实操匠
+        - generic [ref=f1e112]:
+          - generic "校验官 · 防幻觉守门人 · Validator" [ref=f1e113]: 校
+          - generic [ref=f1e116]: 校验官
+    - generic [ref=f1e118]:
+      - generic [ref=f1e119]: 知
+      - generic [ref=f1e120]:
+        - generic [ref=f1e121]: 林知远
+        - generic [ref=f1e122]: 本科大三
+      - button "切换身份或重新构建画像" [ref=f1e123] [cursor=pointer]
+  - generic [ref=f1e127]:
+    - banner [ref=f1e128]:
+      - navigation "面包屑" [ref=f1e129]:
+        - link "智学灵境" [ref=f1e130] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f1e133]: 学习评估
+      - generic [ref=f1e134]:
+        - button "打开全局搜索" [ref=f1e135] [cursor=pointer]:
+          - generic [ref=f1e139]: 搜索知识点 / 资源 / 智能体…
+          - generic [ref=f1e140]: ⌘K
+        - button "切换为浅色主题" [ref=f1e141] [cursor=pointer]
+        - button "查看通知" [ref=f1e149] [cursor=pointer]
+        - generic [ref=f1e154]: 编队在线
+    - main [ref=f1e156]:
+      - generic [ref=f1e464]:
+        - generic [ref=f1e465]:
+          - button [ref=f1e466] [cursor=pointer]
+          - generic [ref=f1e470]:
+            - heading "AI 伦理与安全" [level=1] [ref=f1e471]
+            - paragraph [ref=f1e472]: 第 1 章 · 预计 40 分钟
+        - generic [ref=f1e473]:
+          - generic [ref=f1e480]:
+            - generic [ref=f1e481]: 学习计划 · 第 1 天任务
+            - generic [ref=f1e482]: 完成后将自动回写任务进度、学习时长与掌握度
+          - button "返回计划" [ref=f1e483] [cursor=pointer]
+        - generic [ref=f1e485]:
+          - generic [ref=f1e486]: 学习进度
+          - generic [ref=f1e487]: 100%
+        - generic [ref=f1e489]:
+          - generic [ref=f1e490]:
+            - generic [ref=f1e491]:
+              - heading "核心内容" [level=2] [ref=f1e497]
+              - generic [ref=f1e502]:
+                - paragraph [ref=f1e503]: 公平性、可解释性、隐私保护、价值对齐等核心议题。
+                - generic [ref=f1e504]:
+                  - generic [ref=f1e505]: 核心要点：
+                  - list [ref=f1e506]:
+                    - listitem [ref=f1e507]: 公平性、可解释性、隐私保护、价值对齐等核心议题。
+            - generic [ref=f1e508]:
+              - heading "教学视频" [level=2] [ref=f1e514]
+              - button "点击播放教学动画" [ref=f1e516] [cursor=pointer]
+              - paragraph [ref=f1e521]: 点击播放教学动画视频
+            - generic [ref=f1e522]:
+              - heading "代码示例" [level=2] [ref=f1e529]
+              - generic [ref=f1e530]: "# AI 伦理与安全 示例代码 # 核心实现逻辑 def learn_knowledge(concept): \"\"\"学习知识点的核心方法\"\"\" understand = analyze(concept) practice = implement(understand) mastery = evaluate(practice) return mastery # 运行示例 result = learn_knowledge(\"AI 伦理与安全\") print(f\"掌握度: {result}%\")"
+          - generic [ref=f1e532]:
+            - heading "学习导航" [level=2] [ref=f1e533]
+            - generic [ref=f1e534]:
+              - generic [ref=f1e535]:
+                - generic [ref=f1e536]: "1"
+                - generic [ref=f1e537]: 阅读核心内容
+              - generic [ref=f1e538]:
+                - generic [ref=f1e539]: "2"
+                - generic [ref=f1e540]: 观看教学视频
+              - generic [ref=f1e541]:
+                - generic [ref=f1e542]: "3"
+                - generic [ref=f1e543]: 实践代码示例
+              - generic [ref=f1e544]:
+                - generic [ref=f1e545]: "4"
+                - generic [ref=f1e546]: 完成学习
+            - button "已完成并回写进度" [active] [ref=f1e583] [cursor=pointer]
+            - generic [ref=f1e584]:
+              - generic [ref=f1e585]: 学习记录已更新
+              - paragraph [ref=f1e589]: 计划任务已完成，可继续测验或返回计划查看进度。
+              - button "返回学习计划查看进度" [ref=f1e590] [cursor=pointer]
+            - button "开始测验" [ref=f1e551] [cursor=pointer]

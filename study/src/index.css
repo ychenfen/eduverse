@@ -1,0 +1,958 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap");
+@import "highlight.js/styles/github-dark.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #0a0e1a;
+  --fg: #e6e9f2;
+  --fg-muted: #8b94a8;
+  --card: rgba(26, 34, 53, 0.6);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --accent: #e63946;
+  --accent-2: #1b9aaa;
+  --surface-input: rgba(6, 8, 15, 0.56);
+  --surface-popover: rgba(10, 14, 26, 0.96);
+  --app-bg: radial-gradient(ellipse at 20% 0%, #1a2235 0%, #0a0e1a 52%, #06080f 100%);
+}
+
+html.light {
+  color-scheme: light;
+  --bg: #f5f1e8;
+  --fg: #1a2235;
+  --fg-muted: #4a5670;
+  --card: rgba(255, 255, 255, 0.7);
+  --card-border: rgba(26, 34, 53, 0.1);
+  --accent: #c81e2d;
+  --accent-2: #0e7c8a;
+  --surface-input: rgba(255, 255, 255, 0.72);
+  --surface-popover: rgba(251, 248, 241, 0.97);
+  --app-bg: radial-gradient(ellipse at 18% 0%, #fffdf8 0%, #f5f1e8 58%, #ede6d3 100%);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans SC", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "tnum";
+  overflow: hidden;
+}
+
+.app-shell-bg {
+  background: var(--app-bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: 0.75rem;
+  z-index: 100;
+  transform: translateY(-180%);
+  border-radius: 999px;
+  background: var(--surface-popover);
+  padding: 0.65rem 1rem;
+  color: var(--fg);
+  font-size: 0.8125rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+@keyframes slide-in-left {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 220ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.resource-masonry {
+  column-count: 1;
+  column-gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .resource-masonry { column-count: 2; }
+}
+
+@media (min-width: 1280px) {
+  .resource-masonry { column-count: 3; }
+}
+
+@media (min-width: 1536px) {
+  .resource-masonry { column-count: 4; }
+}
+
+/* 旧页面中的墨色实底在宣纸主题下统一转换为可读的纸面层。 */
+html.light [class~="bg-ink-950"]:not(.fixed),
+html.light [class~="bg-ink-950/95"]:not(.fixed),
+html.light [class~="bg-ink-950/85"]:not(.fixed),
+html.light [class~="bg-ink-950/80"]:not(.fixed),
+html.light [class~="bg-ink-950/70"]:not(.fixed),
+html.light [class~="bg-ink-950/60"]:not(.fixed),
+html.light [class~="bg-ink-950/40"]:not(.fixed),
+html.light [class~="bg-ink-950/30"]:not(.fixed),
+html.light [class~="bg-ink-950/20"]:not(.fixed),
+html.light [class~="bg-ink-950/10"]:not(.fixed),
+html.light [class~="bg-ink-900"]:not(.fixed),
+html.light [class~="bg-ink-900/95"]:not(.fixed),
+html.light [class~="bg-ink-900/90"]:not(.fixed),
+html.light [class~="bg-ink-900/80"]:not(.fixed),
+html.light [class~="bg-ink-900/60"]:not(.fixed),
+html.light [class~="bg-ink-900/40"]:not(.fixed),
+html.light [class~="bg-ink-800"]:not(.fixed),
+html.light [class~="bg-ink-700"]:not(.fixed),
+html.light [class~="bg-ink-700/70"]:not(.fixed),
+html.light [class~="bg-ink-700/60"]:not(.fixed),
+html.light [class~="bg-ink-700/50"]:not(.fixed),
+html.light [class~="bg-ink-700/40"]:not(.fixed),
+html.light [class~="bg-ink-700/30"]:not(.fixed),
+html.light [class~="bg-ink-600/60"]:not(.fixed) {
+  background-color: rgba(255, 255, 255, 0.66) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 148, 168, 0.3);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 148, 168, 0.5);
+}
+
+/* 玻璃态卡片 */
+.glass {
+  background: var(--card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--card-border);
+}
+
+.glass-strong {
+  background: color-mix(in srgb, var(--card) 80%, transparent);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--card-border);
+}
+
+/* 渐变文字 */
+.text-gradient {
+  background: linear-gradient(135deg, #e63946 0%, #f4a261 50%, #1b9aaa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.text-gradient-azure {
+  background: linear-gradient(135deg, #1b9aaa 0%, #9d4edd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* 流光边框 */
+.border-flow {
+  position: relative;
+  background-clip: padding-box;
+}
+.border-flow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, #e63946, #1b9aaa, #9d4edd, #f4a261);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Markdown 排版 */
+.prose-edu {
+  color: var(--fg);
+  line-height: 1.75;
+  font-size: 0.9375rem;
+}
+.prose-edu h1,
+.prose-edu h2,
+.prose-edu h3 {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 700;
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
+  color: var(--fg);
+}
+.prose-edu h1 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 0.4em;
+}
+.prose-edu h2 {
+  font-size: 1.25rem;
+}
+.prose-edu h3 {
+  font-size: 1.0625rem;
+}
+.prose-edu p {
+  margin: 0.7em 0;
+}
+.prose-edu ul,
+.prose-edu ol {
+  margin: 0.6em 0;
+  padding-left: 1.4em;
+}
+.prose-edu li {
+  margin: 0.25em 0;
+}
+.prose-edu code {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.85em;
+  background: rgba(139, 148, 168, 0.18);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+.prose-edu pre {
+  background: #0a0e1a !important;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1em 1.2em;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+.prose-edu pre code {
+  background: transparent;
+  padding: 0;
+  font-size: 0.875em;
+}
+.prose-edu blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1em;
+  color: var(--fg-muted);
+  margin: 1em 0;
+}
+.prose-edu table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.875em;
+}
+.prose-edu th,
+.prose-edu td {
+  border: 1px solid var(--card-border);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+.prose-edu th {
+  background: rgba(139, 148, 168, 0.12);
+  font-weight: 600;
+}
+.prose-edu a {
+  color: var(--accent-2);
+  text-decoration: none;
+}
+.prose-edu a:hover {
+  text-decoration: underline;
+}
+.prose-edu strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* KaTeX 公式深色主题适配 */
+.prose-edu .katex {
+  color: var(--fg);
+  font-size: 1.05em;
+}
+.prose-edu .katex-display {
+  margin: 1em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.prose-edu .katex-display .katex {
+  color: var(--fg);
+}
+.prose-edu .katex .mathnormal,
+.prose-edu .katex .mathit,
+.prose-edu .katex .mathrm {
+  color: var(--fg);
+}
+
+/* 打字机光标 */
+.typing-cursor::after {
+  content: "▋";
+  margin-left: 2px;
+  color: var(--accent);
+  animation: blink 1s step-end infinite;
+}
+
+/* 隐藏 number input 箭头 */
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* ========================================
+   教学动画播放器 — SVG 分镜时序动画
+   每个 .anim-stage 挂载时动画自动从头播放
+   ======================================== */
+
+.anim-stage svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* SVG 元素 transform 原点修正 */
+.anim-stage [data-anim] {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* ---------- 分镜 1：粒子汇聚 ---------- */
+.anim-stage[data-motion="intro"] [data-anim="core-pulse"] {
+  animation: anim-core-pulse 3s ease-in-out infinite;
+  transform-origin: 240px 120px;
+}
+@keyframes anim-core-pulse {
+  0%, 100% { transform: scale(0.85); opacity: 0.6; }
+  50% { transform: scale(1.15); opacity: 1; }
+}
+
+.anim-stage[data-motion="intro"] [data-anim="ring-expand"] {
+  animation: anim-ring-expand 2.4s ease-out infinite;
+  transform-origin: 240px 120px;
+}
+@keyframes anim-ring-expand {
+  0% { transform: scale(0.4); opacity: 0.9; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
+
+/* 粒子向中心移动 — 每个粒子不同延迟 */
+.anim-stage[data-motion="intro"] [data-anim="p1"] {
+  animation: anim-particle-in 2s ease-in infinite;
+}
+.anim-stage[data-motion="intro"] [data-anim="p2"] {
+  animation: anim-particle-in 2s ease-in 0.3s infinite;
+}
+.anim-stage[data-motion="intro"] [data-anim="p3"] {
+  animation: anim-particle-in 2s ease-in 0.6s infinite;
+}
+.anim-stage[data-motion="intro"] [data-anim="p4"] {
+  animation: anim-particle-in 2s ease-in 0.9s infinite;
+}
+.anim-stage[data-motion="intro"] [data-anim="p5"] {
+  animation: anim-particle-in 1.6s ease-in 0.2s infinite;
+}
+.anim-stage[data-motion="intro"] [data-anim="p6"] {
+  animation: anim-particle-in 1.6s ease-in 0.8s infinite;
+}
+@keyframes anim-particle-in {
+  0% { transform: translate(0, 0); opacity: 0; }
+  20% { opacity: 1; }
+  100% {
+    transform: translate(var(--tx, 180px), var(--ty, 60px));
+    opacity: 0;
+  }
+}
+/* 为每个粒子指定目标偏移（朝向中心 240,120） */
+.anim-stage[data-motion="intro"] [data-anim="p1"] { --tx: 180px; --ty: 60px; }
+.anim-stage[data-motion="intro"] [data-anim="p2"] { --tx: -180px; --ty: 60px; }
+.anim-stage[data-motion="intro"] [data-anim="p3"] { --tx: 180px; --ty: -60px; }
+.anim-stage[data-motion="intro"] [data-anim="p4"] { --tx: -180px; --ty: -60px; }
+.anim-stage[data-motion="intro"] [data-anim="p5"] { --tx: 140px; --ty: 0px; }
+.anim-stage[data-motion="intro"] [data-anim="p6"] { --tx: -140px; --ty: 0px; }
+
+/* ---------- 分镜 2：数据流动 ---------- */
+.anim-stage[data-motion="flow"] [data-anim="dash-flow-1"] {
+  animation: anim-dash-flow 0.8s linear infinite;
+}
+.anim-stage[data-motion="flow"] [data-anim="dash-flow-2"] {
+  animation: anim-dash-flow 0.8s linear 0.4s infinite;
+}
+@keyframes anim-dash-flow {
+  0% { stroke-dashoffset: 12; }
+  100% { stroke-dashoffset: 0; }
+}
+
+/* 节点依次点亮 */
+.anim-stage[data-motion="flow"] [data-anim="node-in"] {
+  animation: anim-node-light 0.6s ease-out forwards;
+}
+@keyframes anim-node-light {
+  0% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.anim-stage[data-motion="flow"] [data-anim="node-core"] {
+  animation: anim-node-light-delayed 0.8s ease-out 0.6s forwards;
+}
+@keyframes anim-node-light-delayed {
+  0% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.anim-stage[data-motion="flow"] [data-anim="node-out"] {
+  animation: anim-node-light-delayed-2 0.8s ease-out 1.4s forwards;
+}
+@keyframes anim-node-light-delayed-2 {
+  0% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.anim-stage[data-motion="flow"] [data-anim="core-ring"] {
+  animation: anim-core-ring 1.5s ease-out infinite;
+  transform-origin: 240px 120px;
+}
+@keyframes anim-core-ring {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+/* ---------- 分镜 3：三栏对比卡片 ---------- */
+.anim-stage[data-motion="compare"] [data-anim="card-1"] {
+  animation: anim-card-rise 0.6s ease-out forwards;
+}
+.anim-stage[data-motion="compare"] [data-anim="card-2"] {
+  animation: anim-card-rise 0.6s ease-out 0.5s forwards;
+}
+.anim-stage[data-motion="compare"] [data-anim="card-3"] {
+  animation: anim-card-rise 0.6s ease-out 1s forwards;
+}
+@keyframes anim-card-rise {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- 分镜：概念定义 ---------- */
+.anim-stage[data-motion="concept"] [data-anim="concept-title"] {
+  animation: anim-concept-title 0.8s ease-out 0.2s forwards;
+  opacity: 0;
+}
+@keyframes anim-concept-title {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.anim-stage[data-motion="concept"] [data-anim="formula-block"] {
+  animation: anim-formula-in 1s ease-out 1.2s forwards;
+}
+@keyframes anim-formula-in {
+  0% { opacity: 0; transform: scale(0.9); }
+  60% { opacity: 1; transform: scale(1.02); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.anim-stage[data-motion="concept"] [data-anim="terms"] {
+  animation: anim-terms-in 0.8s ease-out 3s forwards;
+}
+@keyframes anim-terms-in {
+  0% { opacity: 0; transform: translateY(15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- 分镜：运行演示 ---------- */
+.anim-stage[data-motion="runtime"] [data-anim="runtime-steps"] {
+  animation: anim-fade-in 0.6s ease-out 0.3s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="runtime"] [data-anim="step-1"] {
+  animation: anim-step-active 0.5s ease-out 1s forwards;
+}
+.anim-stage[data-motion="runtime"] [data-anim="step-2"] {
+  animation: anim-step-active 0.5s ease-out 2.2s forwards;
+}
+.anim-stage[data-motion="runtime"] [data-anim="step-3"] {
+  animation: anim-step-active 0.5s ease-out 3.4s forwards;
+}
+.anim-stage[data-motion="runtime"] [data-anim="step-4"] {
+  animation: anim-step-active 0.5s ease-out 4.6s forwards;
+}
+.anim-stage[data-motion="runtime"] [data-anim="step-5"] {
+  animation: anim-step-active 0.5s ease-out 5.8s forwards;
+}
+.anim-stage[data-motion="runtime"] [data-anim="step-6"] {
+  animation: anim-step-active 0.5s ease-out 7s forwards;
+}
+@keyframes anim-step-active {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+.anim-stage[data-motion="runtime"] [data-anim="output-panel"] {
+  animation: anim-output-pop 1s ease-out 8s forwards;
+}
+@keyframes anim-output-pop {
+  0% { opacity: 0; transform: scale(0.8) translateX(20px); }
+  60% { opacity: 1; transform: scale(1.05) translateX(0); }
+  100% { opacity: 1; transform: scale(1) translateX(0); }
+}
+
+@keyframes anim-fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* ---------- 分镜：时间轴（历史类） ---------- */
+.anim-stage[data-motion="timeline"] [data-anim="timeline-line"] {
+  animation: anim-timeline-grow 2s ease-out 0.3s forwards;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+}
+@keyframes anim-timeline-grow {
+  0% { stroke-dashoffset: 200; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.anim-stage[data-motion="timeline"] [data-anim="tl-node-1"] {
+  animation: anim-tl-node-in 0.5s ease-out 0.8s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="timeline"] [data-anim="tl-node-2"] {
+  animation: anim-tl-node-in 0.5s ease-out 1.6s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="timeline"] [data-anim="tl-node-3"] {
+  animation: anim-tl-node-in 0.5s ease-out 2.4s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="timeline"] [data-anim="tl-node-4"] {
+  animation: anim-tl-node-in 0.5s ease-out 3.2s forwards;
+  opacity: 0;
+}
+@keyframes anim-tl-node-in {
+  0% { opacity: 0; transform: scale(0.5); }
+  60% { transform: scale(1.2); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* ---------- 分镜：时间轴卡片（历史类） ---------- */
+.anim-stage[data-motion="timeline-cards"] [data-anim="tc-card-1"] {
+  animation: anim-tc-card-in 0.6s ease-out 0.3s forwards;
+}
+.anim-stage[data-motion="timeline-cards"] [data-anim="tc-card-2"] {
+  animation: anim-tc-card-in 0.6s ease-out 1.3s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="timeline-cards"] [data-anim="tc-card-3"] {
+  animation: anim-tc-card-in 0.6s ease-out 2.3s forwards;
+  opacity: 0;
+}
+@keyframes anim-tc-card-in {
+  0% { opacity: 0; transform: translateY(20px) scale(0.95); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ---------- 分镜：模型架构（模型类） ---------- */
+.anim-stage[data-motion="architecture"] [data-anim="arch-input"] {
+  animation: anim-arch-in 0.6s ease-out 0.2s forwards;
+}
+.anim-stage[data-motion="architecture"] [data-anim="arch-line-1"] {
+  animation: anim-arch-line-in 0.5s ease-out 0.8s forwards;
+}
+.anim-stage[data-motion="architecture"] [data-anim="arch-hidden1"] {
+  animation: anim-arch-in 0.6s ease-out 1.1s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="architecture"] [data-anim="arch-line-2"] {
+  animation: anim-arch-line-in 0.5s ease-out 1.7s forwards;
+}
+.anim-stage[data-motion="architecture"] [data-anim="arch-hidden2"] {
+  animation: anim-arch-in 0.6s ease-out 2s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="architecture"] [data-anim="arch-line-3"] {
+  animation: anim-arch-line-in 0.5s ease-out 2.6s forwards;
+}
+.anim-stage[data-motion="architecture"] [data-anim="arch-output"] {
+  animation: anim-arch-in 0.6s ease-out 2.9s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="architecture"] [data-anim="arch-labels"] {
+  animation: anim-fade-in 0.8s ease-out 3.5s forwards;
+  opacity: 0;
+}
+@keyframes anim-arch-in {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes anim-arch-line-in {
+  0% { opacity: 0; stroke-dashoffset: 50; }
+  100% { opacity: 1; stroke-dashoffset: 0; }
+}
+
+/* ---------- 分镜：对比（左右两栏） ---------- */
+.anim-stage[data-motion="compare"] [data-anim="left-col"] {
+  animation: anim-col-slide-in 0.6s ease-out 0.3s forwards;
+}
+.anim-stage[data-motion="compare"] [data-anim="right-col"] {
+  animation: anim-col-slide-in 0.6s ease-out 1.5s forwards;
+  opacity: 0;
+}
+@keyframes anim-col-slide-in {
+  0% { opacity: 0; transform: translateX(-15px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+/* ---------- 分镜 4：场景轮播 ---------- */
+.anim-stage[data-motion="outro"] [data-anim="scene-1"] {
+  animation: anim-scene-highlight 3s ease-in-out 0s forwards;
+}
+.anim-stage[data-motion="outro"] [data-anim="scene-2"] {
+  animation: anim-scene-highlight 3s ease-in-out 1s forwards;
+}
+.anim-stage[data-motion="outro"] [data-anim="scene-3"] {
+  animation: anim-scene-highlight 3s ease-in-out 2s forwards;
+}
+@keyframes anim-scene-highlight {
+  0% { opacity: 0.4; transform: scale(0.95); }
+  33% { opacity: 1; transform: scale(1.05); }
+  66% { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 0.7; transform: scale(1); }
+}
+
+.anim-stage[data-motion="outro"] [data-anim="summary-text"] {
+  animation: anim-summary-fade 1s ease-out 3s forwards;
+  opacity: 0;
+}
+@keyframes anim-summary-fade {
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.anim-stage[data-motion="outro"] [data-anim="video-recommend"] {
+  animation: anim-video-rec-in 0.8s ease-out 4s forwards;
+}
+@keyframes anim-video-rec-in {
+  0% { opacity: 0; transform: translateY(12px) scale(0.95); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ---------- 通用：分镜挂载淡入 ---------- */
+.anim-stage svg.anim-svg {
+  animation: anim-svg-mount 0.4s ease-out;
+}
+@keyframes anim-svg-mount {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* ========================================
+   分镜 2：算法流程图 — 节点依次点亮 + 连线流动 + 循环反馈
+   ======================================== */
+
+/* 连线虚线流动 */
+.anim-stage[data-motion="flowchart"] [data-anim^="fc-dash-"] {
+  animation: anim-fc-dash 1s linear infinite;
+}
+@keyframes anim-fc-dash {
+  0% { stroke-dashoffset: 8; }
+  100% { stroke-dashoffset: 0; }
+}
+
+/* 节点依次点亮 */
+.anim-stage[data-motion="flowchart"] [data-anim="fc-node-1"] {
+  animation: anim-fc-node-light 0.5s ease-out 0s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="fc-node-2"] {
+  animation: anim-fc-node-light 0.5s ease-out 1s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="fc-node-3"] {
+  animation: anim-fc-node-light 0.5s ease-out 2s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="fc-node-4"] {
+  animation: anim-fc-node-pulse 1.2s ease-in-out 3s infinite;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="fc-node-5"] {
+  animation: anim-fc-node-light 0.6s ease-out 4s forwards;
+}
+@keyframes anim-fc-node-light {
+  0% { opacity: 0.3; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes anim-fc-node-pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+
+/* 循环反馈：3s 后浮现 */
+.anim-stage[data-motion="flowchart"] [data-anim="fc-loop"] {
+  animation: anim-fc-loop-in 0.8s ease-out 3.5s forwards;
+}
+@keyframes anim-fc-loop-in {
+  0% { opacity: 0; stroke-dashoffset: 100; }
+  100% { opacity: 0.9; stroke-dashoffset: 0; }
+}
+.anim-stage[data-motion="flowchart"] [data-anim="fc-loop-label"] {
+  animation: anim-fc-loop-label 0.6s ease-out 4s forwards;
+}
+@keyframes anim-fc-loop-label {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* 训练流程（模型类第6分镜） */
+.anim-stage[data-motion="flowchart"] [data-anim="train-step-1"] {
+  animation: anim-train-step-in 0.5s ease-out 0.2s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-line-1"] {
+  animation: anim-train-line-in 0.4s ease-out 0.7s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-step-2"] {
+  animation: anim-train-step-in 0.5s ease-out 1s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-line-2"] {
+  animation: anim-train-line-in 0.4s ease-out 1.5s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-step-3"] {
+  animation: anim-train-step-in 0.5s ease-out 1.8s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-line-3"] {
+  animation: anim-train-line-in 0.4s ease-out 2.3s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-step-4"] {
+  animation: anim-train-step-in 0.5s ease-out 2.6s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-line-4"] {
+  animation: anim-train-line-in 0.4s ease-out 3.1s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-step-5"] {
+  animation: anim-train-step-in 0.5s ease-out 3.4s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-line-5"] {
+  animation: anim-train-line-in 0.4s ease-out 3.9s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-step-6"] {
+  animation: anim-train-step-in 0.5s ease-out 4.2s forwards;
+  opacity: 0;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-loop"] {
+  animation: anim-train-loop-in 0.8s ease-out 5s forwards;
+}
+.anim-stage[data-motion="flowchart"] [data-anim="train-loop-label"] {
+  animation: anim-fc-loop-label 0.6s ease-out 5.5s forwards;
+}
+@keyframes anim-train-step-in {
+  0% { opacity: 0; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes anim-train-line-in {
+  0% { opacity: 0; stroke-dashoffset: 50; }
+  100% { opacity: 1; stroke-dashoffset: 0; }
+}
+@keyframes anim-train-loop-in {
+  0% { opacity: 0; stroke-dashoffset: 200; }
+  100% { opacity: 0.9; stroke-dashoffset: 0; }
+}
+
+/* ========================================
+   分镜 3：目标代码 — 逐行高亮 + 变量状态变化
+   ======================================== */
+
+/* 逐行高亮背景（每行 0.6s，从第 1 行到第 10 行） */
+.anim-stage[data-motion="code"] [data-anim="code-hl-1"]  { animation: anim-code-hl 0.6s ease-out 0.2s forwards; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-2"]  { animation: anim-code-hl 0.6s ease-out 0.8s forwards; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-3"]  { animation: anim-code-hl 0.4s ease-out 1.4s forwards; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-4"]  { animation: anim-code-hl 0.6s ease-out 1.8s forwards; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-5"]  { animation: anim-code-hl 0.6s ease-out 2.4s forwards; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-6"]  { animation: anim-code-hl-loop 1.2s ease-in-out 3s infinite; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-7"]  { animation: anim-code-hl-loop 1.2s ease-in-out 3.3s infinite; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-8"]  { animation: anim-code-hl-loop 1.2s ease-in-out 3.6s infinite; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-9"]  { animation: anim-code-hl 0.6s ease-out 8s forwards; }
+.anim-stage[data-motion="code"] [data-anim="code-hl-10"] { animation: anim-code-hl 0.8s ease-out 9s forwards; }
+
+@keyframes anim-code-hl {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes anim-code-hl-loop {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* 变量状态变化 — 数字"跳动"效果 */
+.anim-stage[data-motion="code"] [data-anim="var-step"] {
+  animation: anim-var-step 1.2s ease-in-out 3s infinite;
+}
+@keyframes anim-var-step {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.anim-stage[data-motion="code"] [data-anim="var-loss"] {
+  animation: anim-var-loss 1.2s ease-in-out 3.3s infinite;
+}
+@keyframes anim-var-loss {
+  0%, 100% { opacity: 1; transform: translateY(0); }
+  50% { opacity: 0.5; transform: translateY(-2px); }
+}
+
+.anim-stage[data-motion="code"] [data-anim="var-norm"] {
+  animation: anim-var-norm 1.2s ease-in-out 3.6s infinite;
+}
+@keyframes anim-var-norm {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+/* converged 变为 True — 9s 后切换 */
+.anim-stage[data-motion="code"] [data-anim="var-conv"] {
+  animation: anim-var-conv 0.6s ease-out 9s forwards;
+}
+@keyframes anim-var-conv {
+  0% { fill: #F4A261; }
+  100% { fill: #10B981; }
+}
+
+/* output 显现 */
+.anim-stage[data-motion="code"] [data-anim="var-out"] {
+  animation: anim-var-out 0.6s ease-out 9.3s forwards;
+}
+@keyframes anim-var-out {
+  0% { opacity: 0; transform: translateX(-4px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+/* 收敛进度条 */
+.anim-stage[data-motion="code"] [data-anim="conv-bar"] {
+  animation: anim-conv-bar 9s ease-out 1s forwards;
+}
+@keyframes anim-conv-bar {
+  0% { width: 0; }
+  100% { width: 165px; }
+}
+.anim-stage[data-motion="code"] [data-anim="conv-pct"] {
+  animation: anim-conv-pct 9s ease-out 1s forwards;
+}
+@keyframes anim-conv-pct {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* 代码内容挂载淡入 */
+.anim-stage[data-motion="code"] [data-anim="code-content"] {
+  animation: anim-code-fade 0.6s ease-out 0.1s forwards;
+}
+@keyframes anim-code-fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* prefers-reduced-motion 适配 */
+@media (prefers-reduced-motion: reduce) {
+  .anim-stage [data-anim] {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ===== ReactFlow 深色主题覆盖 ===== */
+.react-flow__container {
+  background: transparent !important;
+}
+
+.react-flow__controls {
+  background: rgba(10, 14, 26, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 8px !important;
+}
+
+.react-flow__controls-button {
+  background: rgba(26, 34, 53, 0.6) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  color: #8b94a8 !important;
+}
+
+.react-flow__controls-button:hover {
+  background: rgba(42, 53, 80, 0.8) !important;
+  color: #e6e9f2 !important;
+}
+
+.react-flow__controls-button svg {
+  stroke: currentColor !important;
+}
+
+.react-flow__minimap {
+  background: #050810 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 8px !important;
+}
+
+.react-flow__edge-path {
+  stroke: rgba(34, 211, 238, 0.4) !important;
+  stroke-width: 1.5 !important;
+}
+
+.react-flow__edge.selected .react-flow__edge-path {
+  stroke: rgba(34, 211, 238, 0.8) !important;
+}
+
+.react-flow__node {
+  cursor: pointer !important;
+}
+
+.react-flow__node.selected {
+  box-shadow: 0 0 0 2px rgba(34, 211, 238, 0.6) !important;
+}
+
+.react-flow__pane {
+  background-color: transparent !important;
+}
